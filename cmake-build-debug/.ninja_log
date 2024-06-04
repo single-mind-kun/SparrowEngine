@@ -1,0 +1,14 @@
+# ninja log v6
+3	932	7391339296598190	Core/CMakeFiles/sparrow_core.dir/Private/SpApplication.cpp.obj	33765c80b09c06cb
+24	360	7391340433883296	lib/libsparrow_core.a	ea018ea8d6e1212a
+13	163	7391344536049088	Core/CMakeFiles/sparrow_core.dir/Private/SpApplication.cpp.obj	e523604a61d46eed
+6	21365	7391344535979280	Platform/CMakeFiles/sparrow_platform.dir/Private/SpLog.cpp.obj	51d91625d411cde1
+40	41566	7391344898059659	Sample/SandBox/CMakeFiles/SandBox.dir/Main.cpp.obj	e0ca818d592dfd2d
+26	53809	7391344897919468	lib/libsparrow_platform.a	6f8029e2beb949c3
+53809	54008	7391345435751771	lib/libsparrow_core.a	ea018ea8d6e1212a
+54008	88689	7391345437737181	bin/SandBox.exe	4da16b30536e6ad1
+94	23250	7391700119308689	Platform/CMakeFiles/sparrow_platform.dir/Private/SpLog.cpp.obj	51d91625d411cde1
+71	20327	7391700949998313	Sample/SandBox/CMakeFiles/SandBox.dir/Main.cpp.obj	e0ca818d592dfd2d
+59	23615	7391700949888737	Platform/CMakeFiles/sparrow_platform.dir/Private/SpLog.cpp.obj	51d91625d411cde1
+23615	47450	7391701185433785	lib/libsparrow_platform.a	6f8029e2beb949c3
+47450	120514	7391701423788031	bin/SandBox.exe	4da16b30536e6ad1

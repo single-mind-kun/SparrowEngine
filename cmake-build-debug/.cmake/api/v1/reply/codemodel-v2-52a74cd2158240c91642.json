@@ -1,0 +1,155 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4
+					],
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.26"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "Platform",
+					"jsonFile" : "directory-Platform-Debug-c4367f00623003809246.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.26"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Platform",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "Core",
+					"jsonFile" : "directory-Core-Debug-b3854b2db255c35a81c1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.26"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Core",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "Editor",
+					"jsonFile" : "directory-Editor-Debug-7a308ff03f205fcb7b81.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.26"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Editor"
+				},
+				{
+					"build" : "Sample",
+					"childIndexes" : 
+					[
+						5
+					],
+					"jsonFile" : "directory-Sample-Debug-caed6328e2443eda527e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.26"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Sample"
+				},
+				{
+					"build" : "Sample/SandBox",
+					"jsonFile" : "directory-Sample.SandBox-Debug-5ce3c5ffe40bd4b9e304.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.26"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 0,
+					"source" : "Sample/SandBox",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"name" : "SparrowEngine",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 5,
+					"id" : "SandBox::@07d2af709ebe7cebe019",
+					"jsonFile" : "target-SandBox-Debug-4f8ec57609577ba71949.json",
+					"name" : "SandBox",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "sparrow_core::@94795ff35dabbbd3a8ca",
+					"jsonFile" : "target-sparrow_core-Debug-813545b3e99fb900c2ea.json",
+					"name" : "sparrow_core",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "sparrow_platform::@be182d4d8601e04fa5cc",
+					"jsonFile" : "target-sparrow_platform-Debug-73a1e44da43fd611cfd5.json",
+					"name" : "sparrow_platform",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "E:/note/GameEngine/SparrowEngine/cmake-build-debug",
+		"source" : "E:/note/GameEngine/SparrowEngine"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

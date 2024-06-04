@@ -1,0 +1,15 @@
+E:/note/GameEngine/SparrowEngine/cmake-build-debug/CMakeFiles/edit_cache.dir
+E:/note/GameEngine/SparrowEngine/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+E:/note/GameEngine/SparrowEngine/cmake-build-debug/Platform/CMakeFiles/sparrow_platform.dir
+E:/note/GameEngine/SparrowEngine/cmake-build-debug/Platform/CMakeFiles/edit_cache.dir
+E:/note/GameEngine/SparrowEngine/cmake-build-debug/Platform/CMakeFiles/rebuild_cache.dir
+E:/note/GameEngine/SparrowEngine/cmake-build-debug/Core/CMakeFiles/sparrow_core.dir
+E:/note/GameEngine/SparrowEngine/cmake-build-debug/Core/CMakeFiles/edit_cache.dir
+E:/note/GameEngine/SparrowEngine/cmake-build-debug/Core/CMakeFiles/rebuild_cache.dir
+E:/note/GameEngine/SparrowEngine/cmake-build-debug/Editor/CMakeFiles/edit_cache.dir
+E:/note/GameEngine/SparrowEngine/cmake-build-debug/Editor/CMakeFiles/rebuild_cache.dir
+E:/note/GameEngine/SparrowEngine/cmake-build-debug/Sample/CMakeFiles/edit_cache.dir
+E:/note/GameEngine/SparrowEngine/cmake-build-debug/Sample/CMakeFiles/rebuild_cache.dir
+E:/note/GameEngine/SparrowEngine/cmake-build-debug/Sample/SandBox/CMakeFiles/SandBox.dir
+E:/note/GameEngine/SparrowEngine/cmake-build-debug/Sample/SandBox/CMakeFiles/edit_cache.dir
+E:/note/GameEngine/SparrowEngine/cmake-build-debug/Sample/SandBox/CMakeFiles/rebuild_cache.dir

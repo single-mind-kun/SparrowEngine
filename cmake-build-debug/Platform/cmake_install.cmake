@@ -37,3 +37,8 @@ if(NOT DEFINED CMAKE_OBJDUMP)
   set(CMAKE_OBJDUMP "D:/Clion/CLion 2024.1.2/bin/mingw/bin/objdump.exe")
 endif()
 
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("E:/note/GameEngine/SparrowEngine/cmake-build-debug/Platform/External/glfw/cmake_install.cmake")
+endif()
+

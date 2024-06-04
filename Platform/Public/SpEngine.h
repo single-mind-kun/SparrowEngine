@@ -22,7 +22,7 @@
     //windows
 #elif SE_ENGINE_PLATFORM_MACOS
     //mac
-#elif SE_ENGINE_PLASE_ENGINE_PLATFORM_LINUX
+#elif SE_ENGINE_PLATFORM_LINUX
     //linux
 #endif
 

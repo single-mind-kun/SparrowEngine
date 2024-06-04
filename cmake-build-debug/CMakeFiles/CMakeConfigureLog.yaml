@@ -415,3 +415,172 @@ events:
       
       
 ...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Clion/CLion 2024.1.2/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "D:/Clion/CLion 2024.1.2/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "D:/Clion/CLion 2024.1.2/bin/cmake/win/x64/share/cmake-3.28/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "D:/Clion/CLion 2024.1.2/bin/cmake/win/x64/share/cmake-3.28/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "Platform/External/glfw/CMakeLists.txt:62 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "E:/note/GameEngine/SparrowEngine/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ciqymc"
+      binary: "E:/note/GameEngine/SparrowEngine/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ciqymc"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "E:/note/GameEngine/SparrowEngine/Platform/External/glfw/CMake/modules"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/note/GameEngine/SparrowEngine/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ciqymc'
+        
+        Run Build Command(s): "D:/Clion/CLion 2024.1.2/bin/ninja/win/x64/ninja.exe" -v cmTC_181cd
+        [1/2] "D:\\Clion\\CLion 2024.1.2\\bin\\mingw\\bin\\gcc.exe" -DCMAKE_HAVE_LIBC_PTHREAD  -fdiagnostics-color=always -o CMakeFiles/cmTC_181cd.dir/src.c.obj -c E:/note/GameEngine/SparrowEngine/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ciqymc/src.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "D:\\Clion\\CLion 2024.1.2\\bin\\mingw\\bin\\gcc.exe"   CMakeFiles/cmTC_181cd.dir/src.c.obj -o cmTC_181cd.exe -Wl,--out-implib,libcmTC_181cd.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Clion/CLion 2024.1.2/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "Platform/External/glfw/CMakeLists.txt:111 (check_include_file)"
+    checks:
+      - "Looking for dinput.h"
+    directories:
+      source: "E:/note/GameEngine/SparrowEngine/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-3emd4r"
+      binary: "E:/note/GameEngine/SparrowEngine/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-3emd4r"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "E:/note/GameEngine/SparrowEngine/Platform/External/glfw/CMake/modules"
+    buildResult:
+      variable: "DINPUT_H_FOUND"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/note/GameEngine/SparrowEngine/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-3emd4r'
+        
+        Run Build Command(s): "D:/Clion/CLion 2024.1.2/bin/ninja/win/x64/ninja.exe" -v cmTC_be329
+        [1/2] "D:\\Clion\\CLion 2024.1.2\\bin\\mingw\\bin\\gcc.exe"   -fdiagnostics-color=always -o CMakeFiles/cmTC_be329.dir/CheckIncludeFile.c.obj -c E:/note/GameEngine/SparrowEngine/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-3emd4r/CheckIncludeFile.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "D:\\Clion\\CLion 2024.1.2\\bin\\mingw\\bin\\gcc.exe"   CMakeFiles/cmTC_be329.dir/CheckIncludeFile.c.obj -o cmTC_be329.exe -Wl,--out-implib,libcmTC_be329.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Clion/CLion 2024.1.2/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "Platform/External/glfw/CMakeLists.txt:112 (check_include_file)"
+    checks:
+      - "Looking for xinput.h"
+    directories:
+      source: "E:/note/GameEngine/SparrowEngine/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-a3u77t"
+      binary: "E:/note/GameEngine/SparrowEngine/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-a3u77t"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "E:/note/GameEngine/SparrowEngine/Platform/External/glfw/CMake/modules"
+    buildResult:
+      variable: "XINPUT_H_FOUND"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/note/GameEngine/SparrowEngine/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-a3u77t'
+        
+        Run Build Command(s): "D:/Clion/CLion 2024.1.2/bin/ninja/win/x64/ninja.exe" -v cmTC_586df
+        [1/2] "D:\\Clion\\CLion 2024.1.2\\bin\\mingw\\bin\\gcc.exe"   -fdiagnostics-color=always -o CMakeFiles/cmTC_586df.dir/CheckIncludeFile.c.obj -c E:/note/GameEngine/SparrowEngine/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-a3u77t/CheckIncludeFile.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "D:\\Clion\\CLion 2024.1.2\\bin\\mingw\\bin\\gcc.exe"   CMakeFiles/cmTC_586df.dir/CheckIncludeFile.c.obj -o cmTC_586df.exe -Wl,--out-implib,libcmTC_586df.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Clion/CLion 2024.1.2/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "D:/Clion/CLion 2024.1.2/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "D:/Clion/CLion 2024.1.2/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "Platform/External/glfw/CMakeLists.txt:122 (check_c_compiler_flag)"
+    checks:
+      - "Performing Test _GLFW_HAS_DEP"
+    directories:
+      source: "E:/note/GameEngine/SparrowEngine/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-801s70"
+      binary: "E:/note/GameEngine/SparrowEngine/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-801s70"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "E:/note/GameEngine/SparrowEngine/Platform/External/glfw/CMake/modules"
+    buildResult:
+      variable: "_GLFW_HAS_DEP"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/note/GameEngine/SparrowEngine/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-801s70'
+        
+        Run Build Command(s): "D:/Clion/CLion 2024.1.2/bin/ninja/win/x64/ninja.exe" -v cmTC_99387
+        [1/2] "D:\\Clion\\CLion 2024.1.2\\bin\\mingw\\bin\\gcc.exe" -D_GLFW_HAS_DEP  -Wl,--nxcompat -fdiagnostics-color=always -o CMakeFiles/cmTC_99387.dir/src.c.obj -c E:/note/GameEngine/SparrowEngine/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-801s70/src.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "D:\\Clion\\CLion 2024.1.2\\bin\\mingw\\bin\\gcc.exe" -Wl,--nxcompat  CMakeFiles/cmTC_99387.dir/src.c.obj -o cmTC_99387.exe -Wl,--out-implib,libcmTC_99387.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Clion/CLion 2024.1.2/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "D:/Clion/CLion 2024.1.2/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "D:/Clion/CLion 2024.1.2/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "Platform/External/glfw/CMakeLists.txt:129 (check_c_compiler_flag)"
+    checks:
+      - "Performing Test _GLFW_HAS_ASLR"
+    directories:
+      source: "E:/note/GameEngine/SparrowEngine/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-mhx4u1"
+      binary: "E:/note/GameEngine/SparrowEngine/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-mhx4u1"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "E:/note/GameEngine/SparrowEngine/Platform/External/glfw/CMake/modules"
+    buildResult:
+      variable: "_GLFW_HAS_ASLR"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/note/GameEngine/SparrowEngine/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-mhx4u1'
+        
+        Run Build Command(s): "D:/Clion/CLion 2024.1.2/bin/ninja/win/x64/ninja.exe" -v cmTC_cd1e9
+        [1/2] "D:\\Clion\\CLion 2024.1.2\\bin\\mingw\\bin\\gcc.exe" -D_GLFW_HAS_ASLR  -Wl,--dynamicbase -fdiagnostics-color=always -o CMakeFiles/cmTC_cd1e9.dir/src.c.obj -c E:/note/GameEngine/SparrowEngine/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-mhx4u1/src.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "D:\\Clion\\CLion 2024.1.2\\bin\\mingw\\bin\\gcc.exe" -Wl,--dynamicbase  CMakeFiles/cmTC_cd1e9.dir/src.c.obj -o cmTC_cd1e9.exe -Wl,--out-implib,libcmTC_cd1e9.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Clion/CLion 2024.1.2/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "D:/Clion/CLion 2024.1.2/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "D:/Clion/CLion 2024.1.2/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "Platform/External/glfw/CMakeLists.txt:136 (check_c_compiler_flag)"
+    checks:
+      - "Performing Test _GLFW_HAS_64ASLR"
+    directories:
+      source: "E:/note/GameEngine/SparrowEngine/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-i35bq6"
+      binary: "E:/note/GameEngine/SparrowEngine/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-i35bq6"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "E:/note/GameEngine/SparrowEngine/Platform/External/glfw/CMake/modules"
+    buildResult:
+      variable: "_GLFW_HAS_64ASLR"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/note/GameEngine/SparrowEngine/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-i35bq6'
+        
+        Run Build Command(s): "D:/Clion/CLion 2024.1.2/bin/ninja/win/x64/ninja.exe" -v cmTC_c0ac5
+        [1/2] "D:\\Clion\\CLion 2024.1.2\\bin\\mingw\\bin\\gcc.exe" -D_GLFW_HAS_64ASLR  -Wl,--high-entropy-va -fdiagnostics-color=always -o CMakeFiles/cmTC_c0ac5.dir/src.c.obj -c E:/note/GameEngine/SparrowEngine/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-i35bq6/src.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "D:\\Clion\\CLion 2024.1.2\\bin\\mingw\\bin\\gcc.exe" -Wl,--high-entropy-va  CMakeFiles/cmTC_c0ac5.dir/src.c.obj -o cmTC_c0ac5.exe -Wl,--out-implib,libcmTC_c0ac5.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+...

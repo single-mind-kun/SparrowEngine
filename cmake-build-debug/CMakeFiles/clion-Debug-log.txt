@@ -2,6 +2,7 @@
 Platform: Windows
 -- Could NOT find Doxygen (missing: DOXYGEN_EXECUTABLE) 
 -- Using Win32 for window creation
--- Configuring done (0.8s)
--- Generating done (0.2s)
+----> Find vulkan success: C:/VulkanSDK/1.3.283.0/Include
+-- Configuring done (1.6s)
+-- Generating done (0.1s)
 -- Build files have been written to: E:/note/GameEngine/SparrowEngine/cmake-build-debug

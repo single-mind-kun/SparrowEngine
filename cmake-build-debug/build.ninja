@@ -120,28 +120,44 @@ build install/strip: phony CMakeFiles/install/strip.util
 build cmake_object_order_depends_target_sparrow_platform: phony || cmake_object_order_depends_target_glfw
 
 build Platform/CMakeFiles/sparrow_platform.dir/Private/SpLog.cpp.obj: CXX_COMPILER__sparrow_platform_unscanned_Debug E$:/note/GameEngine/SparrowEngine/Platform/Private/SpLog.cpp || cmake_object_order_depends_target_sparrow_platform
-  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSE_ENGINE_PLATFORM_WIN32
+  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSP_ENGINE_PLATFORM_WIN32
   DEP_FILE = Platform\CMakeFiles\sparrow_platform.dir\Private\SpLog.cpp.obj.d
   FLAGS = -g -std=gnu++17 -fdiagnostics-color=always
-  INCLUDES = -IE:/note/GameEngine/SparrowEngine/Platform/Public -IE:/note/GameEngine/SparrowEngine/Core/Public -IE:/note/GameEngine/SparrowEngine/Platform/External -IE:/note/GameEngine/SparrowEngine/Platform/External/glfw/include
+  INCLUDES = -IE:/note/GameEngine/SparrowEngine/Platform/Public -IE:/note/GameEngine/SparrowEngine/Core/Public -IE:/note/GameEngine/SparrowEngine/Platform/External -IC:/VulkanSDK/1.3.283.0/Include -IE:/note/GameEngine/SparrowEngine/Platform/External/glfw/include
   OBJECT_DIR = Platform\CMakeFiles\sparrow_platform.dir
   OBJECT_FILE_DIR = Platform\CMakeFiles\sparrow_platform.dir\Private
 
 build Platform/CMakeFiles/sparrow_platform.dir/Private/SpWindow.cpp.obj: CXX_COMPILER__sparrow_platform_unscanned_Debug E$:/note/GameEngine/SparrowEngine/Platform/Private/SpWindow.cpp || cmake_object_order_depends_target_sparrow_platform
-  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSE_ENGINE_PLATFORM_WIN32
+  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSP_ENGINE_PLATFORM_WIN32
   DEP_FILE = Platform\CMakeFiles\sparrow_platform.dir\Private\SpWindow.cpp.obj.d
   FLAGS = -g -std=gnu++17 -fdiagnostics-color=always
-  INCLUDES = -IE:/note/GameEngine/SparrowEngine/Platform/Public -IE:/note/GameEngine/SparrowEngine/Core/Public -IE:/note/GameEngine/SparrowEngine/Platform/External -IE:/note/GameEngine/SparrowEngine/Platform/External/glfw/include
+  INCLUDES = -IE:/note/GameEngine/SparrowEngine/Platform/Public -IE:/note/GameEngine/SparrowEngine/Core/Public -IE:/note/GameEngine/SparrowEngine/Platform/External -IC:/VulkanSDK/1.3.283.0/Include -IE:/note/GameEngine/SparrowEngine/Platform/External/glfw/include
   OBJECT_DIR = Platform\CMakeFiles\sparrow_platform.dir
   OBJECT_FILE_DIR = Platform\CMakeFiles\sparrow_platform.dir\Private
 
 build Platform/CMakeFiles/sparrow_platform.dir/Private/Window/SpGLFWwindow.cpp.obj: CXX_COMPILER__sparrow_platform_unscanned_Debug E$:/note/GameEngine/SparrowEngine/Platform/Private/Window/SpGLFWwindow.cpp || cmake_object_order_depends_target_sparrow_platform
-  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSE_ENGINE_PLATFORM_WIN32
+  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSP_ENGINE_PLATFORM_WIN32
   DEP_FILE = Platform\CMakeFiles\sparrow_platform.dir\Private\Window\SpGLFWwindow.cpp.obj.d
   FLAGS = -g -std=gnu++17 -fdiagnostics-color=always
-  INCLUDES = -IE:/note/GameEngine/SparrowEngine/Platform/Public -IE:/note/GameEngine/SparrowEngine/Core/Public -IE:/note/GameEngine/SparrowEngine/Platform/External -IE:/note/GameEngine/SparrowEngine/Platform/External/glfw/include
+  INCLUDES = -IE:/note/GameEngine/SparrowEngine/Platform/Public -IE:/note/GameEngine/SparrowEngine/Core/Public -IE:/note/GameEngine/SparrowEngine/Platform/External -IC:/VulkanSDK/1.3.283.0/Include -IE:/note/GameEngine/SparrowEngine/Platform/External/glfw/include
   OBJECT_DIR = Platform\CMakeFiles\sparrow_platform.dir
   OBJECT_FILE_DIR = Platform\CMakeFiles\sparrow_platform.dir\Private\Window
+
+build Platform/CMakeFiles/sparrow_platform.dir/Private/SpGraphicContext.cpp.obj: CXX_COMPILER__sparrow_platform_unscanned_Debug E$:/note/GameEngine/SparrowEngine/Platform/Private/SpGraphicContext.cpp || cmake_object_order_depends_target_sparrow_platform
+  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSP_ENGINE_PLATFORM_WIN32
+  DEP_FILE = Platform\CMakeFiles\sparrow_platform.dir\Private\SpGraphicContext.cpp.obj.d
+  FLAGS = -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -IE:/note/GameEngine/SparrowEngine/Platform/Public -IE:/note/GameEngine/SparrowEngine/Core/Public -IE:/note/GameEngine/SparrowEngine/Platform/External -IC:/VulkanSDK/1.3.283.0/Include -IE:/note/GameEngine/SparrowEngine/Platform/External/glfw/include
+  OBJECT_DIR = Platform\CMakeFiles\sparrow_platform.dir
+  OBJECT_FILE_DIR = Platform\CMakeFiles\sparrow_platform.dir\Private
+
+build Platform/CMakeFiles/sparrow_platform.dir/Private/Graphic/SpVKGraphicContext.cpp.obj: CXX_COMPILER__sparrow_platform_unscanned_Debug E$:/note/GameEngine/SparrowEngine/Platform/Private/Graphic/SpVKGraphicContext.cpp || cmake_object_order_depends_target_sparrow_platform
+  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSP_ENGINE_PLATFORM_WIN32
+  DEP_FILE = Platform\CMakeFiles\sparrow_platform.dir\Private\Graphic\SpVKGraphicContext.cpp.obj.d
+  FLAGS = -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -IE:/note/GameEngine/SparrowEngine/Platform/Public -IE:/note/GameEngine/SparrowEngine/Core/Public -IE:/note/GameEngine/SparrowEngine/Platform/External -IC:/VulkanSDK/1.3.283.0/Include -IE:/note/GameEngine/SparrowEngine/Platform/External/glfw/include
+  OBJECT_DIR = Platform\CMakeFiles\sparrow_platform.dir
+  OBJECT_FILE_DIR = Platform\CMakeFiles\sparrow_platform.dir\Private\Graphic
 
 
 # =============================================================================
@@ -151,7 +167,7 @@ build Platform/CMakeFiles/sparrow_platform.dir/Private/Window/SpGLFWwindow.cpp.o
 #############################################
 # Link the static library lib\libsparrow_platform.a
 
-build lib/libsparrow_platform.a: CXX_STATIC_LIBRARY_LINKER__sparrow_platform_Debug Platform/CMakeFiles/sparrow_platform.dir/Private/SpLog.cpp.obj Platform/CMakeFiles/sparrow_platform.dir/Private/SpWindow.cpp.obj Platform/CMakeFiles/sparrow_platform.dir/Private/Window/SpGLFWwindow.cpp.obj || lib/libglfw3.a
+build lib/libsparrow_platform.a: CXX_STATIC_LIBRARY_LINKER__sparrow_platform_Debug Platform/CMakeFiles/sparrow_platform.dir/Private/SpLog.cpp.obj Platform/CMakeFiles/sparrow_platform.dir/Private/SpWindow.cpp.obj Platform/CMakeFiles/sparrow_platform.dir/Private/Window/SpGLFWwindow.cpp.obj Platform/CMakeFiles/sparrow_platform.dir/Private/SpGraphicContext.cpp.obj Platform/CMakeFiles/sparrow_platform.dir/Private/Graphic/SpVKGraphicContext.cpp.obj || lib/libglfw3.a
   LANGUAGE_COMPILE_FLAGS = -g
   OBJECT_DIR = Platform\CMakeFiles\sparrow_platform.dir
   POST_BUILD = cd .
@@ -328,7 +344,7 @@ build Platform/External/glfw/src/update_mappings: phony Platform/External/glfw/s
 build cmake_object_order_depends_target_glfw: phony || Platform/External/glfw/src/CMakeFiles/glfw.dir
 
 build Platform/External/glfw/src/CMakeFiles/glfw.dir/context.c.obj: C_COMPILER__glfw_unscanned_Debug E$:/note/GameEngine/SparrowEngine/Platform/External/glfw/src/context.c || cmake_object_order_depends_target_glfw
-  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSE_ENGINE_PLATFORM_WIN32 -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE
+  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSP_ENGINE_PLATFORM_WIN32 -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE
   DEP_FILE = Platform\External\glfw\src\CMakeFiles\glfw.dir\context.c.obj.d
   FLAGS = -g -std=gnu99 -fdiagnostics-color=always -Wall -Wdeclaration-after-statement
   INCLUDES = -IE:/note/GameEngine/SparrowEngine/Platform/Public -IE:/note/GameEngine/SparrowEngine/Core/Public -IE:/note/GameEngine/SparrowEngine/Platform/External/glfw/include -IE:/note/GameEngine/SparrowEngine/Platform/External/glfw/src -IE:/note/GameEngine/SparrowEngine/cmake-build-debug/Platform/External/glfw/src
@@ -336,7 +352,7 @@ build Platform/External/glfw/src/CMakeFiles/glfw.dir/context.c.obj: C_COMPILER__
   OBJECT_FILE_DIR = Platform\External\glfw\src\CMakeFiles\glfw.dir
 
 build Platform/External/glfw/src/CMakeFiles/glfw.dir/init.c.obj: C_COMPILER__glfw_unscanned_Debug E$:/note/GameEngine/SparrowEngine/Platform/External/glfw/src/init.c || cmake_object_order_depends_target_glfw
-  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSE_ENGINE_PLATFORM_WIN32 -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE
+  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSP_ENGINE_PLATFORM_WIN32 -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE
   DEP_FILE = Platform\External\glfw\src\CMakeFiles\glfw.dir\init.c.obj.d
   FLAGS = -g -std=gnu99 -fdiagnostics-color=always -Wall -Wdeclaration-after-statement
   INCLUDES = -IE:/note/GameEngine/SparrowEngine/Platform/Public -IE:/note/GameEngine/SparrowEngine/Core/Public -IE:/note/GameEngine/SparrowEngine/Platform/External/glfw/include -IE:/note/GameEngine/SparrowEngine/Platform/External/glfw/src -IE:/note/GameEngine/SparrowEngine/cmake-build-debug/Platform/External/glfw/src
@@ -344,7 +360,7 @@ build Platform/External/glfw/src/CMakeFiles/glfw.dir/init.c.obj: C_COMPILER__glf
   OBJECT_FILE_DIR = Platform\External\glfw\src\CMakeFiles\glfw.dir
 
 build Platform/External/glfw/src/CMakeFiles/glfw.dir/input.c.obj: C_COMPILER__glfw_unscanned_Debug E$:/note/GameEngine/SparrowEngine/Platform/External/glfw/src/input.c || cmake_object_order_depends_target_glfw
-  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSE_ENGINE_PLATFORM_WIN32 -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE
+  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSP_ENGINE_PLATFORM_WIN32 -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE
   DEP_FILE = Platform\External\glfw\src\CMakeFiles\glfw.dir\input.c.obj.d
   FLAGS = -g -std=gnu99 -fdiagnostics-color=always -Wall -Wdeclaration-after-statement
   INCLUDES = -IE:/note/GameEngine/SparrowEngine/Platform/Public -IE:/note/GameEngine/SparrowEngine/Core/Public -IE:/note/GameEngine/SparrowEngine/Platform/External/glfw/include -IE:/note/GameEngine/SparrowEngine/Platform/External/glfw/src -IE:/note/GameEngine/SparrowEngine/cmake-build-debug/Platform/External/glfw/src
@@ -352,7 +368,7 @@ build Platform/External/glfw/src/CMakeFiles/glfw.dir/input.c.obj: C_COMPILER__gl
   OBJECT_FILE_DIR = Platform\External\glfw\src\CMakeFiles\glfw.dir
 
 build Platform/External/glfw/src/CMakeFiles/glfw.dir/monitor.c.obj: C_COMPILER__glfw_unscanned_Debug E$:/note/GameEngine/SparrowEngine/Platform/External/glfw/src/monitor.c || cmake_object_order_depends_target_glfw
-  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSE_ENGINE_PLATFORM_WIN32 -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE
+  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSP_ENGINE_PLATFORM_WIN32 -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE
   DEP_FILE = Platform\External\glfw\src\CMakeFiles\glfw.dir\monitor.c.obj.d
   FLAGS = -g -std=gnu99 -fdiagnostics-color=always -Wall -Wdeclaration-after-statement
   INCLUDES = -IE:/note/GameEngine/SparrowEngine/Platform/Public -IE:/note/GameEngine/SparrowEngine/Core/Public -IE:/note/GameEngine/SparrowEngine/Platform/External/glfw/include -IE:/note/GameEngine/SparrowEngine/Platform/External/glfw/src -IE:/note/GameEngine/SparrowEngine/cmake-build-debug/Platform/External/glfw/src
@@ -360,7 +376,7 @@ build Platform/External/glfw/src/CMakeFiles/glfw.dir/monitor.c.obj: C_COMPILER__
   OBJECT_FILE_DIR = Platform\External\glfw\src\CMakeFiles\glfw.dir
 
 build Platform/External/glfw/src/CMakeFiles/glfw.dir/vulkan.c.obj: C_COMPILER__glfw_unscanned_Debug E$:/note/GameEngine/SparrowEngine/Platform/External/glfw/src/vulkan.c || cmake_object_order_depends_target_glfw
-  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSE_ENGINE_PLATFORM_WIN32 -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE
+  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSP_ENGINE_PLATFORM_WIN32 -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE
   DEP_FILE = Platform\External\glfw\src\CMakeFiles\glfw.dir\vulkan.c.obj.d
   FLAGS = -g -std=gnu99 -fdiagnostics-color=always -Wall -Wdeclaration-after-statement
   INCLUDES = -IE:/note/GameEngine/SparrowEngine/Platform/Public -IE:/note/GameEngine/SparrowEngine/Core/Public -IE:/note/GameEngine/SparrowEngine/Platform/External/glfw/include -IE:/note/GameEngine/SparrowEngine/Platform/External/glfw/src -IE:/note/GameEngine/SparrowEngine/cmake-build-debug/Platform/External/glfw/src
@@ -368,7 +384,7 @@ build Platform/External/glfw/src/CMakeFiles/glfw.dir/vulkan.c.obj: C_COMPILER__g
   OBJECT_FILE_DIR = Platform\External\glfw\src\CMakeFiles\glfw.dir
 
 build Platform/External/glfw/src/CMakeFiles/glfw.dir/window.c.obj: C_COMPILER__glfw_unscanned_Debug E$:/note/GameEngine/SparrowEngine/Platform/External/glfw/src/window.c || cmake_object_order_depends_target_glfw
-  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSE_ENGINE_PLATFORM_WIN32 -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE
+  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSP_ENGINE_PLATFORM_WIN32 -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE
   DEP_FILE = Platform\External\glfw\src\CMakeFiles\glfw.dir\window.c.obj.d
   FLAGS = -g -std=gnu99 -fdiagnostics-color=always -Wall -Wdeclaration-after-statement
   INCLUDES = -IE:/note/GameEngine/SparrowEngine/Platform/Public -IE:/note/GameEngine/SparrowEngine/Core/Public -IE:/note/GameEngine/SparrowEngine/Platform/External/glfw/include -IE:/note/GameEngine/SparrowEngine/Platform/External/glfw/src -IE:/note/GameEngine/SparrowEngine/cmake-build-debug/Platform/External/glfw/src
@@ -376,7 +392,7 @@ build Platform/External/glfw/src/CMakeFiles/glfw.dir/window.c.obj: C_COMPILER__g
   OBJECT_FILE_DIR = Platform\External\glfw\src\CMakeFiles\glfw.dir
 
 build Platform/External/glfw/src/CMakeFiles/glfw.dir/win32_init.c.obj: C_COMPILER__glfw_unscanned_Debug E$:/note/GameEngine/SparrowEngine/Platform/External/glfw/src/win32_init.c || cmake_object_order_depends_target_glfw
-  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSE_ENGINE_PLATFORM_WIN32 -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE
+  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSP_ENGINE_PLATFORM_WIN32 -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE
   DEP_FILE = Platform\External\glfw\src\CMakeFiles\glfw.dir\win32_init.c.obj.d
   FLAGS = -g -std=gnu99 -fdiagnostics-color=always -Wall -Wdeclaration-after-statement
   INCLUDES = -IE:/note/GameEngine/SparrowEngine/Platform/Public -IE:/note/GameEngine/SparrowEngine/Core/Public -IE:/note/GameEngine/SparrowEngine/Platform/External/glfw/include -IE:/note/GameEngine/SparrowEngine/Platform/External/glfw/src -IE:/note/GameEngine/SparrowEngine/cmake-build-debug/Platform/External/glfw/src
@@ -384,7 +400,7 @@ build Platform/External/glfw/src/CMakeFiles/glfw.dir/win32_init.c.obj: C_COMPILE
   OBJECT_FILE_DIR = Platform\External\glfw\src\CMakeFiles\glfw.dir
 
 build Platform/External/glfw/src/CMakeFiles/glfw.dir/win32_joystick.c.obj: C_COMPILER__glfw_unscanned_Debug E$:/note/GameEngine/SparrowEngine/Platform/External/glfw/src/win32_joystick.c || cmake_object_order_depends_target_glfw
-  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSE_ENGINE_PLATFORM_WIN32 -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE
+  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSP_ENGINE_PLATFORM_WIN32 -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE
   DEP_FILE = Platform\External\glfw\src\CMakeFiles\glfw.dir\win32_joystick.c.obj.d
   FLAGS = -g -std=gnu99 -fdiagnostics-color=always -Wall -Wdeclaration-after-statement
   INCLUDES = -IE:/note/GameEngine/SparrowEngine/Platform/Public -IE:/note/GameEngine/SparrowEngine/Core/Public -IE:/note/GameEngine/SparrowEngine/Platform/External/glfw/include -IE:/note/GameEngine/SparrowEngine/Platform/External/glfw/src -IE:/note/GameEngine/SparrowEngine/cmake-build-debug/Platform/External/glfw/src
@@ -392,7 +408,7 @@ build Platform/External/glfw/src/CMakeFiles/glfw.dir/win32_joystick.c.obj: C_COM
   OBJECT_FILE_DIR = Platform\External\glfw\src\CMakeFiles\glfw.dir
 
 build Platform/External/glfw/src/CMakeFiles/glfw.dir/win32_monitor.c.obj: C_COMPILER__glfw_unscanned_Debug E$:/note/GameEngine/SparrowEngine/Platform/External/glfw/src/win32_monitor.c || cmake_object_order_depends_target_glfw
-  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSE_ENGINE_PLATFORM_WIN32 -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE
+  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSP_ENGINE_PLATFORM_WIN32 -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE
   DEP_FILE = Platform\External\glfw\src\CMakeFiles\glfw.dir\win32_monitor.c.obj.d
   FLAGS = -g -std=gnu99 -fdiagnostics-color=always -Wall -Wdeclaration-after-statement
   INCLUDES = -IE:/note/GameEngine/SparrowEngine/Platform/Public -IE:/note/GameEngine/SparrowEngine/Core/Public -IE:/note/GameEngine/SparrowEngine/Platform/External/glfw/include -IE:/note/GameEngine/SparrowEngine/Platform/External/glfw/src -IE:/note/GameEngine/SparrowEngine/cmake-build-debug/Platform/External/glfw/src
@@ -400,7 +416,7 @@ build Platform/External/glfw/src/CMakeFiles/glfw.dir/win32_monitor.c.obj: C_COMP
   OBJECT_FILE_DIR = Platform\External\glfw\src\CMakeFiles\glfw.dir
 
 build Platform/External/glfw/src/CMakeFiles/glfw.dir/win32_time.c.obj: C_COMPILER__glfw_unscanned_Debug E$:/note/GameEngine/SparrowEngine/Platform/External/glfw/src/win32_time.c || cmake_object_order_depends_target_glfw
-  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSE_ENGINE_PLATFORM_WIN32 -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE
+  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSP_ENGINE_PLATFORM_WIN32 -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE
   DEP_FILE = Platform\External\glfw\src\CMakeFiles\glfw.dir\win32_time.c.obj.d
   FLAGS = -g -std=gnu99 -fdiagnostics-color=always -Wall -Wdeclaration-after-statement
   INCLUDES = -IE:/note/GameEngine/SparrowEngine/Platform/Public -IE:/note/GameEngine/SparrowEngine/Core/Public -IE:/note/GameEngine/SparrowEngine/Platform/External/glfw/include -IE:/note/GameEngine/SparrowEngine/Platform/External/glfw/src -IE:/note/GameEngine/SparrowEngine/cmake-build-debug/Platform/External/glfw/src
@@ -408,7 +424,7 @@ build Platform/External/glfw/src/CMakeFiles/glfw.dir/win32_time.c.obj: C_COMPILE
   OBJECT_FILE_DIR = Platform\External\glfw\src\CMakeFiles\glfw.dir
 
 build Platform/External/glfw/src/CMakeFiles/glfw.dir/win32_thread.c.obj: C_COMPILER__glfw_unscanned_Debug E$:/note/GameEngine/SparrowEngine/Platform/External/glfw/src/win32_thread.c || cmake_object_order_depends_target_glfw
-  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSE_ENGINE_PLATFORM_WIN32 -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE
+  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSP_ENGINE_PLATFORM_WIN32 -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE
   DEP_FILE = Platform\External\glfw\src\CMakeFiles\glfw.dir\win32_thread.c.obj.d
   FLAGS = -g -std=gnu99 -fdiagnostics-color=always -Wall -Wdeclaration-after-statement
   INCLUDES = -IE:/note/GameEngine/SparrowEngine/Platform/Public -IE:/note/GameEngine/SparrowEngine/Core/Public -IE:/note/GameEngine/SparrowEngine/Platform/External/glfw/include -IE:/note/GameEngine/SparrowEngine/Platform/External/glfw/src -IE:/note/GameEngine/SparrowEngine/cmake-build-debug/Platform/External/glfw/src
@@ -416,7 +432,7 @@ build Platform/External/glfw/src/CMakeFiles/glfw.dir/win32_thread.c.obj: C_COMPI
   OBJECT_FILE_DIR = Platform\External\glfw\src\CMakeFiles\glfw.dir
 
 build Platform/External/glfw/src/CMakeFiles/glfw.dir/win32_window.c.obj: C_COMPILER__glfw_unscanned_Debug E$:/note/GameEngine/SparrowEngine/Platform/External/glfw/src/win32_window.c || cmake_object_order_depends_target_glfw
-  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSE_ENGINE_PLATFORM_WIN32 -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE
+  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSP_ENGINE_PLATFORM_WIN32 -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE
   DEP_FILE = Platform\External\glfw\src\CMakeFiles\glfw.dir\win32_window.c.obj.d
   FLAGS = -g -std=gnu99 -fdiagnostics-color=always -Wall -Wdeclaration-after-statement
   INCLUDES = -IE:/note/GameEngine/SparrowEngine/Platform/Public -IE:/note/GameEngine/SparrowEngine/Core/Public -IE:/note/GameEngine/SparrowEngine/Platform/External/glfw/include -IE:/note/GameEngine/SparrowEngine/Platform/External/glfw/src -IE:/note/GameEngine/SparrowEngine/cmake-build-debug/Platform/External/glfw/src
@@ -424,7 +440,7 @@ build Platform/External/glfw/src/CMakeFiles/glfw.dir/win32_window.c.obj: C_COMPI
   OBJECT_FILE_DIR = Platform\External\glfw\src\CMakeFiles\glfw.dir
 
 build Platform/External/glfw/src/CMakeFiles/glfw.dir/wgl_context.c.obj: C_COMPILER__glfw_unscanned_Debug E$:/note/GameEngine/SparrowEngine/Platform/External/glfw/src/wgl_context.c || cmake_object_order_depends_target_glfw
-  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSE_ENGINE_PLATFORM_WIN32 -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE
+  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSP_ENGINE_PLATFORM_WIN32 -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE
   DEP_FILE = Platform\External\glfw\src\CMakeFiles\glfw.dir\wgl_context.c.obj.d
   FLAGS = -g -std=gnu99 -fdiagnostics-color=always -Wall -Wdeclaration-after-statement
   INCLUDES = -IE:/note/GameEngine/SparrowEngine/Platform/Public -IE:/note/GameEngine/SparrowEngine/Core/Public -IE:/note/GameEngine/SparrowEngine/Platform/External/glfw/include -IE:/note/GameEngine/SparrowEngine/Platform/External/glfw/src -IE:/note/GameEngine/SparrowEngine/cmake-build-debug/Platform/External/glfw/src
@@ -432,7 +448,7 @@ build Platform/External/glfw/src/CMakeFiles/glfw.dir/wgl_context.c.obj: C_COMPIL
   OBJECT_FILE_DIR = Platform\External\glfw\src\CMakeFiles\glfw.dir
 
 build Platform/External/glfw/src/CMakeFiles/glfw.dir/egl_context.c.obj: C_COMPILER__glfw_unscanned_Debug E$:/note/GameEngine/SparrowEngine/Platform/External/glfw/src/egl_context.c || cmake_object_order_depends_target_glfw
-  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSE_ENGINE_PLATFORM_WIN32 -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE
+  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSP_ENGINE_PLATFORM_WIN32 -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE
   DEP_FILE = Platform\External\glfw\src\CMakeFiles\glfw.dir\egl_context.c.obj.d
   FLAGS = -g -std=gnu99 -fdiagnostics-color=always -Wall -Wdeclaration-after-statement
   INCLUDES = -IE:/note/GameEngine/SparrowEngine/Platform/Public -IE:/note/GameEngine/SparrowEngine/Core/Public -IE:/note/GameEngine/SparrowEngine/Platform/External/glfw/include -IE:/note/GameEngine/SparrowEngine/Platform/External/glfw/src -IE:/note/GameEngine/SparrowEngine/cmake-build-debug/Platform/External/glfw/src
@@ -440,7 +456,7 @@ build Platform/External/glfw/src/CMakeFiles/glfw.dir/egl_context.c.obj: C_COMPIL
   OBJECT_FILE_DIR = Platform\External\glfw\src\CMakeFiles\glfw.dir
 
 build Platform/External/glfw/src/CMakeFiles/glfw.dir/osmesa_context.c.obj: C_COMPILER__glfw_unscanned_Debug E$:/note/GameEngine/SparrowEngine/Platform/External/glfw/src/osmesa_context.c || cmake_object_order_depends_target_glfw
-  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSE_ENGINE_PLATFORM_WIN32 -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE
+  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSP_ENGINE_PLATFORM_WIN32 -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE
   DEP_FILE = Platform\External\glfw\src\CMakeFiles\glfw.dir\osmesa_context.c.obj.d
   FLAGS = -g -std=gnu99 -fdiagnostics-color=always -Wall -Wdeclaration-after-statement
   INCLUDES = -IE:/note/GameEngine/SparrowEngine/Platform/Public -IE:/note/GameEngine/SparrowEngine/Core/Public -IE:/note/GameEngine/SparrowEngine/Platform/External/glfw/include -IE:/note/GameEngine/SparrowEngine/Platform/External/glfw/src -IE:/note/GameEngine/SparrowEngine/cmake-build-debug/Platform/External/glfw/src
@@ -551,7 +567,7 @@ build Platform/External/glfw/src/CMakeFiles/update_mappings | ${cmake_ninja_work
 build cmake_object_order_depends_target_boing: phony || cmake_object_order_depends_target_glfw
 
 build Platform/External/glfw/examples/CMakeFiles/boing.dir/boing.c.obj: C_COMPILER__boing_unscanned_Debug E$:/note/GameEngine/SparrowEngine/Platform/External/glfw/examples/boing.c || cmake_object_order_depends_target_boing
-  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSE_ENGINE_PLATFORM_WIN32
+  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSP_ENGINE_PLATFORM_WIN32
   DEP_FILE = Platform\External\glfw\examples\CMakeFiles\boing.dir\boing.c.obj.d
   FLAGS = -g -std=gnu99 -fdiagnostics-color=always
   INCLUDES = -IE:/note/GameEngine/SparrowEngine/Platform/Public -IE:/note/GameEngine/SparrowEngine/Core/Public -IE:/note/GameEngine/SparrowEngine/Platform/External/glfw/deps -IE:/note/GameEngine/SparrowEngine/Platform/External/glfw/include
@@ -559,14 +575,14 @@ build Platform/External/glfw/examples/CMakeFiles/boing.dir/boing.c.obj: C_COMPIL
   OBJECT_FILE_DIR = Platform\External\glfw\examples\CMakeFiles\boing.dir
 
 build Platform/External/glfw/examples/CMakeFiles/boing.dir/glfw.rc.obj: RC_COMPILER__boing_unscanned_Debug E$:/note/GameEngine/SparrowEngine/Platform/External/glfw/examples/glfw.rc || cmake_object_order_depends_target_boing
-  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSE_ENGINE_PLATFORM_WIN32
+  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSP_ENGINE_PLATFORM_WIN32
   DEP_FILE = Platform\External\glfw\examples\CMakeFiles\boing.dir\glfw.rc.obj.d
   INCLUDES = -I E:/note/GameEngine/SparrowEngine/Platform/Public -I E:/note/GameEngine/SparrowEngine/Core/Public -I E:/note/GameEngine/SparrowEngine/Platform/External/glfw/deps -I E:/note/GameEngine/SparrowEngine/Platform/External/glfw/include
   OBJECT_DIR = Platform\External\glfw\examples\CMakeFiles\boing.dir
   OBJECT_FILE_DIR = Platform\External\glfw\examples\CMakeFiles\boing.dir
 
 build Platform/External/glfw/examples/CMakeFiles/boing.dir/__/deps/glad_gl.c.obj: C_COMPILER__boing_unscanned_Debug E$:/note/GameEngine/SparrowEngine/Platform/External/glfw/deps/glad_gl.c || cmake_object_order_depends_target_boing
-  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSE_ENGINE_PLATFORM_WIN32
+  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSP_ENGINE_PLATFORM_WIN32
   DEP_FILE = Platform\External\glfw\examples\CMakeFiles\boing.dir\__\deps\glad_gl.c.obj.d
   FLAGS = -g -std=gnu99 -fdiagnostics-color=always
   INCLUDES = -IE:/note/GameEngine/SparrowEngine/Platform/Public -IE:/note/GameEngine/SparrowEngine/Core/Public -IE:/note/GameEngine/SparrowEngine/Platform/External/glfw/deps -IE:/note/GameEngine/SparrowEngine/Platform/External/glfw/include
@@ -602,7 +618,7 @@ build bin/boing.exe: C_EXECUTABLE_LINKER__boing_Debug Platform/External/glfw/exa
 build cmake_object_order_depends_target_gears: phony || cmake_object_order_depends_target_glfw
 
 build Platform/External/glfw/examples/CMakeFiles/gears.dir/gears.c.obj: C_COMPILER__gears_unscanned_Debug E$:/note/GameEngine/SparrowEngine/Platform/External/glfw/examples/gears.c || cmake_object_order_depends_target_gears
-  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSE_ENGINE_PLATFORM_WIN32
+  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSP_ENGINE_PLATFORM_WIN32
   DEP_FILE = Platform\External\glfw\examples\CMakeFiles\gears.dir\gears.c.obj.d
   FLAGS = -g -std=gnu99 -fdiagnostics-color=always
   INCLUDES = -IE:/note/GameEngine/SparrowEngine/Platform/Public -IE:/note/GameEngine/SparrowEngine/Core/Public -IE:/note/GameEngine/SparrowEngine/Platform/External/glfw/deps -IE:/note/GameEngine/SparrowEngine/Platform/External/glfw/include
@@ -610,14 +626,14 @@ build Platform/External/glfw/examples/CMakeFiles/gears.dir/gears.c.obj: C_COMPIL
   OBJECT_FILE_DIR = Platform\External\glfw\examples\CMakeFiles\gears.dir
 
 build Platform/External/glfw/examples/CMakeFiles/gears.dir/glfw.rc.obj: RC_COMPILER__gears_unscanned_Debug E$:/note/GameEngine/SparrowEngine/Platform/External/glfw/examples/glfw.rc || cmake_object_order_depends_target_gears
-  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSE_ENGINE_PLATFORM_WIN32
+  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSP_ENGINE_PLATFORM_WIN32
   DEP_FILE = Platform\External\glfw\examples\CMakeFiles\gears.dir\glfw.rc.obj.d
   INCLUDES = -I E:/note/GameEngine/SparrowEngine/Platform/Public -I E:/note/GameEngine/SparrowEngine/Core/Public -I E:/note/GameEngine/SparrowEngine/Platform/External/glfw/deps -I E:/note/GameEngine/SparrowEngine/Platform/External/glfw/include
   OBJECT_DIR = Platform\External\glfw\examples\CMakeFiles\gears.dir
   OBJECT_FILE_DIR = Platform\External\glfw\examples\CMakeFiles\gears.dir
 
 build Platform/External/glfw/examples/CMakeFiles/gears.dir/__/deps/glad_gl.c.obj: C_COMPILER__gears_unscanned_Debug E$:/note/GameEngine/SparrowEngine/Platform/External/glfw/deps/glad_gl.c || cmake_object_order_depends_target_gears
-  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSE_ENGINE_PLATFORM_WIN32
+  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSP_ENGINE_PLATFORM_WIN32
   DEP_FILE = Platform\External\glfw\examples\CMakeFiles\gears.dir\__\deps\glad_gl.c.obj.d
   FLAGS = -g -std=gnu99 -fdiagnostics-color=always
   INCLUDES = -IE:/note/GameEngine/SparrowEngine/Platform/Public -IE:/note/GameEngine/SparrowEngine/Core/Public -IE:/note/GameEngine/SparrowEngine/Platform/External/glfw/deps -IE:/note/GameEngine/SparrowEngine/Platform/External/glfw/include
@@ -653,7 +669,7 @@ build bin/gears.exe: C_EXECUTABLE_LINKER__gears_Debug Platform/External/glfw/exa
 build cmake_object_order_depends_target_heightmap: phony || cmake_object_order_depends_target_glfw
 
 build Platform/External/glfw/examples/CMakeFiles/heightmap.dir/heightmap.c.obj: C_COMPILER__heightmap_unscanned_Debug E$:/note/GameEngine/SparrowEngine/Platform/External/glfw/examples/heightmap.c || cmake_object_order_depends_target_heightmap
-  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSE_ENGINE_PLATFORM_WIN32
+  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSP_ENGINE_PLATFORM_WIN32
   DEP_FILE = Platform\External\glfw\examples\CMakeFiles\heightmap.dir\heightmap.c.obj.d
   FLAGS = -g -std=gnu99 -fdiagnostics-color=always
   INCLUDES = -IE:/note/GameEngine/SparrowEngine/Platform/Public -IE:/note/GameEngine/SparrowEngine/Core/Public -IE:/note/GameEngine/SparrowEngine/Platform/External/glfw/deps -IE:/note/GameEngine/SparrowEngine/Platform/External/glfw/include
@@ -661,14 +677,14 @@ build Platform/External/glfw/examples/CMakeFiles/heightmap.dir/heightmap.c.obj: 
   OBJECT_FILE_DIR = Platform\External\glfw\examples\CMakeFiles\heightmap.dir
 
 build Platform/External/glfw/examples/CMakeFiles/heightmap.dir/glfw.rc.obj: RC_COMPILER__heightmap_unscanned_Debug E$:/note/GameEngine/SparrowEngine/Platform/External/glfw/examples/glfw.rc || cmake_object_order_depends_target_heightmap
-  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSE_ENGINE_PLATFORM_WIN32
+  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSP_ENGINE_PLATFORM_WIN32
   DEP_FILE = Platform\External\glfw\examples\CMakeFiles\heightmap.dir\glfw.rc.obj.d
   INCLUDES = -I E:/note/GameEngine/SparrowEngine/Platform/Public -I E:/note/GameEngine/SparrowEngine/Core/Public -I E:/note/GameEngine/SparrowEngine/Platform/External/glfw/deps -I E:/note/GameEngine/SparrowEngine/Platform/External/glfw/include
   OBJECT_DIR = Platform\External\glfw\examples\CMakeFiles\heightmap.dir
   OBJECT_FILE_DIR = Platform\External\glfw\examples\CMakeFiles\heightmap.dir
 
 build Platform/External/glfw/examples/CMakeFiles/heightmap.dir/__/deps/glad_gl.c.obj: C_COMPILER__heightmap_unscanned_Debug E$:/note/GameEngine/SparrowEngine/Platform/External/glfw/deps/glad_gl.c || cmake_object_order_depends_target_heightmap
-  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSE_ENGINE_PLATFORM_WIN32
+  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSP_ENGINE_PLATFORM_WIN32
   DEP_FILE = Platform\External\glfw\examples\CMakeFiles\heightmap.dir\__\deps\glad_gl.c.obj.d
   FLAGS = -g -std=gnu99 -fdiagnostics-color=always
   INCLUDES = -IE:/note/GameEngine/SparrowEngine/Platform/Public -IE:/note/GameEngine/SparrowEngine/Core/Public -IE:/note/GameEngine/SparrowEngine/Platform/External/glfw/deps -IE:/note/GameEngine/SparrowEngine/Platform/External/glfw/include
@@ -704,7 +720,7 @@ build bin/heightmap.exe: C_EXECUTABLE_LINKER__heightmap_Debug Platform/External/
 build cmake_object_order_depends_target_offscreen: phony || cmake_object_order_depends_target_glfw
 
 build Platform/External/glfw/examples/CMakeFiles/offscreen.dir/offscreen.c.obj: C_COMPILER__offscreen_unscanned_Debug E$:/note/GameEngine/SparrowEngine/Platform/External/glfw/examples/offscreen.c || cmake_object_order_depends_target_offscreen
-  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSE_ENGINE_PLATFORM_WIN32
+  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSP_ENGINE_PLATFORM_WIN32
   DEP_FILE = Platform\External\glfw\examples\CMakeFiles\offscreen.dir\offscreen.c.obj.d
   FLAGS = -g -std=gnu99 -fdiagnostics-color=always
   INCLUDES = -IE:/note/GameEngine/SparrowEngine/Platform/Public -IE:/note/GameEngine/SparrowEngine/Core/Public -IE:/note/GameEngine/SparrowEngine/Platform/External/glfw/deps -IE:/note/GameEngine/SparrowEngine/Platform/External/glfw/include
@@ -712,14 +728,14 @@ build Platform/External/glfw/examples/CMakeFiles/offscreen.dir/offscreen.c.obj: 
   OBJECT_FILE_DIR = Platform\External\glfw\examples\CMakeFiles\offscreen.dir
 
 build Platform/External/glfw/examples/CMakeFiles/offscreen.dir/glfw.rc.obj: RC_COMPILER__offscreen_unscanned_Debug E$:/note/GameEngine/SparrowEngine/Platform/External/glfw/examples/glfw.rc || cmake_object_order_depends_target_offscreen
-  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSE_ENGINE_PLATFORM_WIN32
+  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSP_ENGINE_PLATFORM_WIN32
   DEP_FILE = Platform\External\glfw\examples\CMakeFiles\offscreen.dir\glfw.rc.obj.d
   INCLUDES = -I E:/note/GameEngine/SparrowEngine/Platform/Public -I E:/note/GameEngine/SparrowEngine/Core/Public -I E:/note/GameEngine/SparrowEngine/Platform/External/glfw/deps -I E:/note/GameEngine/SparrowEngine/Platform/External/glfw/include
   OBJECT_DIR = Platform\External\glfw\examples\CMakeFiles\offscreen.dir
   OBJECT_FILE_DIR = Platform\External\glfw\examples\CMakeFiles\offscreen.dir
 
 build Platform/External/glfw/examples/CMakeFiles/offscreen.dir/__/deps/glad_gl.c.obj: C_COMPILER__offscreen_unscanned_Debug E$:/note/GameEngine/SparrowEngine/Platform/External/glfw/deps/glad_gl.c || cmake_object_order_depends_target_offscreen
-  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSE_ENGINE_PLATFORM_WIN32
+  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSP_ENGINE_PLATFORM_WIN32
   DEP_FILE = Platform\External\glfw\examples\CMakeFiles\offscreen.dir\__\deps\glad_gl.c.obj.d
   FLAGS = -g -std=gnu99 -fdiagnostics-color=always
   INCLUDES = -IE:/note/GameEngine/SparrowEngine/Platform/Public -IE:/note/GameEngine/SparrowEngine/Core/Public -IE:/note/GameEngine/SparrowEngine/Platform/External/glfw/deps -IE:/note/GameEngine/SparrowEngine/Platform/External/glfw/include
@@ -754,7 +770,7 @@ build bin/offscreen.exe: C_EXECUTABLE_LINKER__offscreen_Debug Platform/External/
 build cmake_object_order_depends_target_particles: phony || cmake_object_order_depends_target_glfw
 
 build Platform/External/glfw/examples/CMakeFiles/particles.dir/particles.c.obj: C_COMPILER__particles_unscanned_Debug E$:/note/GameEngine/SparrowEngine/Platform/External/glfw/examples/particles.c || cmake_object_order_depends_target_particles
-  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSE_ENGINE_PLATFORM_WIN32
+  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSP_ENGINE_PLATFORM_WIN32
   DEP_FILE = Platform\External\glfw\examples\CMakeFiles\particles.dir\particles.c.obj.d
   FLAGS = -g -std=gnu99 -fdiagnostics-color=always
   INCLUDES = -IE:/note/GameEngine/SparrowEngine/Platform/Public -IE:/note/GameEngine/SparrowEngine/Core/Public -IE:/note/GameEngine/SparrowEngine/Platform/External/glfw/deps -IE:/note/GameEngine/SparrowEngine/Platform/External/glfw/include
@@ -762,14 +778,14 @@ build Platform/External/glfw/examples/CMakeFiles/particles.dir/particles.c.obj: 
   OBJECT_FILE_DIR = Platform\External\glfw\examples\CMakeFiles\particles.dir
 
 build Platform/External/glfw/examples/CMakeFiles/particles.dir/glfw.rc.obj: RC_COMPILER__particles_unscanned_Debug E$:/note/GameEngine/SparrowEngine/Platform/External/glfw/examples/glfw.rc || cmake_object_order_depends_target_particles
-  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSE_ENGINE_PLATFORM_WIN32
+  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSP_ENGINE_PLATFORM_WIN32
   DEP_FILE = Platform\External\glfw\examples\CMakeFiles\particles.dir\glfw.rc.obj.d
   INCLUDES = -I E:/note/GameEngine/SparrowEngine/Platform/Public -I E:/note/GameEngine/SparrowEngine/Core/Public -I E:/note/GameEngine/SparrowEngine/Platform/External/glfw/deps -I E:/note/GameEngine/SparrowEngine/Platform/External/glfw/include
   OBJECT_DIR = Platform\External\glfw\examples\CMakeFiles\particles.dir
   OBJECT_FILE_DIR = Platform\External\glfw\examples\CMakeFiles\particles.dir
 
 build Platform/External/glfw/examples/CMakeFiles/particles.dir/__/deps/tinycthread.c.obj: C_COMPILER__particles_unscanned_Debug E$:/note/GameEngine/SparrowEngine/Platform/External/glfw/deps/tinycthread.c || cmake_object_order_depends_target_particles
-  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSE_ENGINE_PLATFORM_WIN32
+  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSP_ENGINE_PLATFORM_WIN32
   DEP_FILE = Platform\External\glfw\examples\CMakeFiles\particles.dir\__\deps\tinycthread.c.obj.d
   FLAGS = -g -std=gnu99 -fdiagnostics-color=always
   INCLUDES = -IE:/note/GameEngine/SparrowEngine/Platform/Public -IE:/note/GameEngine/SparrowEngine/Core/Public -IE:/note/GameEngine/SparrowEngine/Platform/External/glfw/deps -IE:/note/GameEngine/SparrowEngine/Platform/External/glfw/include
@@ -777,7 +793,7 @@ build Platform/External/glfw/examples/CMakeFiles/particles.dir/__/deps/tinycthre
   OBJECT_FILE_DIR = Platform\External\glfw\examples\CMakeFiles\particles.dir\__\deps
 
 build Platform/External/glfw/examples/CMakeFiles/particles.dir/__/deps/getopt.c.obj: C_COMPILER__particles_unscanned_Debug E$:/note/GameEngine/SparrowEngine/Platform/External/glfw/deps/getopt.c || cmake_object_order_depends_target_particles
-  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSE_ENGINE_PLATFORM_WIN32
+  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSP_ENGINE_PLATFORM_WIN32
   DEP_FILE = Platform\External\glfw\examples\CMakeFiles\particles.dir\__\deps\getopt.c.obj.d
   FLAGS = -g -std=gnu99 -fdiagnostics-color=always
   INCLUDES = -IE:/note/GameEngine/SparrowEngine/Platform/Public -IE:/note/GameEngine/SparrowEngine/Core/Public -IE:/note/GameEngine/SparrowEngine/Platform/External/glfw/deps -IE:/note/GameEngine/SparrowEngine/Platform/External/glfw/include
@@ -785,7 +801,7 @@ build Platform/External/glfw/examples/CMakeFiles/particles.dir/__/deps/getopt.c.
   OBJECT_FILE_DIR = Platform\External\glfw\examples\CMakeFiles\particles.dir\__\deps
 
 build Platform/External/glfw/examples/CMakeFiles/particles.dir/__/deps/glad_gl.c.obj: C_COMPILER__particles_unscanned_Debug E$:/note/GameEngine/SparrowEngine/Platform/External/glfw/deps/glad_gl.c || cmake_object_order_depends_target_particles
-  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSE_ENGINE_PLATFORM_WIN32
+  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSP_ENGINE_PLATFORM_WIN32
   DEP_FILE = Platform\External\glfw\examples\CMakeFiles\particles.dir\__\deps\glad_gl.c.obj.d
   FLAGS = -g -std=gnu99 -fdiagnostics-color=always
   INCLUDES = -IE:/note/GameEngine/SparrowEngine/Platform/Public -IE:/note/GameEngine/SparrowEngine/Core/Public -IE:/note/GameEngine/SparrowEngine/Platform/External/glfw/deps -IE:/note/GameEngine/SparrowEngine/Platform/External/glfw/include
@@ -821,7 +837,7 @@ build bin/particles.exe: C_EXECUTABLE_LINKER__particles_Debug Platform/External/
 build cmake_object_order_depends_target_sharing: phony || cmake_object_order_depends_target_glfw
 
 build Platform/External/glfw/examples/CMakeFiles/sharing.dir/sharing.c.obj: C_COMPILER__sharing_unscanned_Debug E$:/note/GameEngine/SparrowEngine/Platform/External/glfw/examples/sharing.c || cmake_object_order_depends_target_sharing
-  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSE_ENGINE_PLATFORM_WIN32
+  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSP_ENGINE_PLATFORM_WIN32
   DEP_FILE = Platform\External\glfw\examples\CMakeFiles\sharing.dir\sharing.c.obj.d
   FLAGS = -g -std=gnu99 -fdiagnostics-color=always
   INCLUDES = -IE:/note/GameEngine/SparrowEngine/Platform/Public -IE:/note/GameEngine/SparrowEngine/Core/Public -IE:/note/GameEngine/SparrowEngine/Platform/External/glfw/deps -IE:/note/GameEngine/SparrowEngine/Platform/External/glfw/include
@@ -829,14 +845,14 @@ build Platform/External/glfw/examples/CMakeFiles/sharing.dir/sharing.c.obj: C_CO
   OBJECT_FILE_DIR = Platform\External\glfw\examples\CMakeFiles\sharing.dir
 
 build Platform/External/glfw/examples/CMakeFiles/sharing.dir/glfw.rc.obj: RC_COMPILER__sharing_unscanned_Debug E$:/note/GameEngine/SparrowEngine/Platform/External/glfw/examples/glfw.rc || cmake_object_order_depends_target_sharing
-  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSE_ENGINE_PLATFORM_WIN32
+  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSP_ENGINE_PLATFORM_WIN32
   DEP_FILE = Platform\External\glfw\examples\CMakeFiles\sharing.dir\glfw.rc.obj.d
   INCLUDES = -I E:/note/GameEngine/SparrowEngine/Platform/Public -I E:/note/GameEngine/SparrowEngine/Core/Public -I E:/note/GameEngine/SparrowEngine/Platform/External/glfw/deps -I E:/note/GameEngine/SparrowEngine/Platform/External/glfw/include
   OBJECT_DIR = Platform\External\glfw\examples\CMakeFiles\sharing.dir
   OBJECT_FILE_DIR = Platform\External\glfw\examples\CMakeFiles\sharing.dir
 
 build Platform/External/glfw/examples/CMakeFiles/sharing.dir/__/deps/glad_gl.c.obj: C_COMPILER__sharing_unscanned_Debug E$:/note/GameEngine/SparrowEngine/Platform/External/glfw/deps/glad_gl.c || cmake_object_order_depends_target_sharing
-  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSE_ENGINE_PLATFORM_WIN32
+  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSP_ENGINE_PLATFORM_WIN32
   DEP_FILE = Platform\External\glfw\examples\CMakeFiles\sharing.dir\__\deps\glad_gl.c.obj.d
   FLAGS = -g -std=gnu99 -fdiagnostics-color=always
   INCLUDES = -IE:/note/GameEngine/SparrowEngine/Platform/Public -IE:/note/GameEngine/SparrowEngine/Core/Public -IE:/note/GameEngine/SparrowEngine/Platform/External/glfw/deps -IE:/note/GameEngine/SparrowEngine/Platform/External/glfw/include
@@ -872,7 +888,7 @@ build bin/sharing.exe: C_EXECUTABLE_LINKER__sharing_Debug Platform/External/glfw
 build cmake_object_order_depends_target_simple: phony || cmake_object_order_depends_target_glfw
 
 build Platform/External/glfw/examples/CMakeFiles/simple.dir/simple.c.obj: C_COMPILER__simple_unscanned_Debug E$:/note/GameEngine/SparrowEngine/Platform/External/glfw/examples/simple.c || cmake_object_order_depends_target_simple
-  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSE_ENGINE_PLATFORM_WIN32
+  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSP_ENGINE_PLATFORM_WIN32
   DEP_FILE = Platform\External\glfw\examples\CMakeFiles\simple.dir\simple.c.obj.d
   FLAGS = -g -std=gnu99 -fdiagnostics-color=always
   INCLUDES = -IE:/note/GameEngine/SparrowEngine/Platform/Public -IE:/note/GameEngine/SparrowEngine/Core/Public -IE:/note/GameEngine/SparrowEngine/Platform/External/glfw/deps -IE:/note/GameEngine/SparrowEngine/Platform/External/glfw/include
@@ -880,14 +896,14 @@ build Platform/External/glfw/examples/CMakeFiles/simple.dir/simple.c.obj: C_COMP
   OBJECT_FILE_DIR = Platform\External\glfw\examples\CMakeFiles\simple.dir
 
 build Platform/External/glfw/examples/CMakeFiles/simple.dir/glfw.rc.obj: RC_COMPILER__simple_unscanned_Debug E$:/note/GameEngine/SparrowEngine/Platform/External/glfw/examples/glfw.rc || cmake_object_order_depends_target_simple
-  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSE_ENGINE_PLATFORM_WIN32
+  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSP_ENGINE_PLATFORM_WIN32
   DEP_FILE = Platform\External\glfw\examples\CMakeFiles\simple.dir\glfw.rc.obj.d
   INCLUDES = -I E:/note/GameEngine/SparrowEngine/Platform/Public -I E:/note/GameEngine/SparrowEngine/Core/Public -I E:/note/GameEngine/SparrowEngine/Platform/External/glfw/deps -I E:/note/GameEngine/SparrowEngine/Platform/External/glfw/include
   OBJECT_DIR = Platform\External\glfw\examples\CMakeFiles\simple.dir
   OBJECT_FILE_DIR = Platform\External\glfw\examples\CMakeFiles\simple.dir
 
 build Platform/External/glfw/examples/CMakeFiles/simple.dir/__/deps/glad_gl.c.obj: C_COMPILER__simple_unscanned_Debug E$:/note/GameEngine/SparrowEngine/Platform/External/glfw/deps/glad_gl.c || cmake_object_order_depends_target_simple
-  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSE_ENGINE_PLATFORM_WIN32
+  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSP_ENGINE_PLATFORM_WIN32
   DEP_FILE = Platform\External\glfw\examples\CMakeFiles\simple.dir\__\deps\glad_gl.c.obj.d
   FLAGS = -g -std=gnu99 -fdiagnostics-color=always
   INCLUDES = -IE:/note/GameEngine/SparrowEngine/Platform/Public -IE:/note/GameEngine/SparrowEngine/Core/Public -IE:/note/GameEngine/SparrowEngine/Platform/External/glfw/deps -IE:/note/GameEngine/SparrowEngine/Platform/External/glfw/include
@@ -923,7 +939,7 @@ build bin/simple.exe: C_EXECUTABLE_LINKER__simple_Debug Platform/External/glfw/e
 build cmake_object_order_depends_target_splitview: phony || cmake_object_order_depends_target_glfw
 
 build Platform/External/glfw/examples/CMakeFiles/splitview.dir/splitview.c.obj: C_COMPILER__splitview_unscanned_Debug E$:/note/GameEngine/SparrowEngine/Platform/External/glfw/examples/splitview.c || cmake_object_order_depends_target_splitview
-  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSE_ENGINE_PLATFORM_WIN32
+  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSP_ENGINE_PLATFORM_WIN32
   DEP_FILE = Platform\External\glfw\examples\CMakeFiles\splitview.dir\splitview.c.obj.d
   FLAGS = -g -std=gnu99 -fdiagnostics-color=always
   INCLUDES = -IE:/note/GameEngine/SparrowEngine/Platform/Public -IE:/note/GameEngine/SparrowEngine/Core/Public -IE:/note/GameEngine/SparrowEngine/Platform/External/glfw/deps -IE:/note/GameEngine/SparrowEngine/Platform/External/glfw/include
@@ -931,14 +947,14 @@ build Platform/External/glfw/examples/CMakeFiles/splitview.dir/splitview.c.obj: 
   OBJECT_FILE_DIR = Platform\External\glfw\examples\CMakeFiles\splitview.dir
 
 build Platform/External/glfw/examples/CMakeFiles/splitview.dir/glfw.rc.obj: RC_COMPILER__splitview_unscanned_Debug E$:/note/GameEngine/SparrowEngine/Platform/External/glfw/examples/glfw.rc || cmake_object_order_depends_target_splitview
-  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSE_ENGINE_PLATFORM_WIN32
+  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSP_ENGINE_PLATFORM_WIN32
   DEP_FILE = Platform\External\glfw\examples\CMakeFiles\splitview.dir\glfw.rc.obj.d
   INCLUDES = -I E:/note/GameEngine/SparrowEngine/Platform/Public -I E:/note/GameEngine/SparrowEngine/Core/Public -I E:/note/GameEngine/SparrowEngine/Platform/External/glfw/deps -I E:/note/GameEngine/SparrowEngine/Platform/External/glfw/include
   OBJECT_DIR = Platform\External\glfw\examples\CMakeFiles\splitview.dir
   OBJECT_FILE_DIR = Platform\External\glfw\examples\CMakeFiles\splitview.dir
 
 build Platform/External/glfw/examples/CMakeFiles/splitview.dir/__/deps/glad_gl.c.obj: C_COMPILER__splitview_unscanned_Debug E$:/note/GameEngine/SparrowEngine/Platform/External/glfw/deps/glad_gl.c || cmake_object_order_depends_target_splitview
-  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSE_ENGINE_PLATFORM_WIN32
+  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSP_ENGINE_PLATFORM_WIN32
   DEP_FILE = Platform\External\glfw\examples\CMakeFiles\splitview.dir\__\deps\glad_gl.c.obj.d
   FLAGS = -g -std=gnu99 -fdiagnostics-color=always
   INCLUDES = -IE:/note/GameEngine/SparrowEngine/Platform/Public -IE:/note/GameEngine/SparrowEngine/Core/Public -IE:/note/GameEngine/SparrowEngine/Platform/External/glfw/deps -IE:/note/GameEngine/SparrowEngine/Platform/External/glfw/include
@@ -974,7 +990,7 @@ build bin/splitview.exe: C_EXECUTABLE_LINKER__splitview_Debug Platform/External/
 build cmake_object_order_depends_target_wave: phony || cmake_object_order_depends_target_glfw
 
 build Platform/External/glfw/examples/CMakeFiles/wave.dir/wave.c.obj: C_COMPILER__wave_unscanned_Debug E$:/note/GameEngine/SparrowEngine/Platform/External/glfw/examples/wave.c || cmake_object_order_depends_target_wave
-  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSE_ENGINE_PLATFORM_WIN32
+  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSP_ENGINE_PLATFORM_WIN32
   DEP_FILE = Platform\External\glfw\examples\CMakeFiles\wave.dir\wave.c.obj.d
   FLAGS = -g -std=gnu99 -fdiagnostics-color=always
   INCLUDES = -IE:/note/GameEngine/SparrowEngine/Platform/Public -IE:/note/GameEngine/SparrowEngine/Core/Public -IE:/note/GameEngine/SparrowEngine/Platform/External/glfw/deps -IE:/note/GameEngine/SparrowEngine/Platform/External/glfw/include
@@ -982,14 +998,14 @@ build Platform/External/glfw/examples/CMakeFiles/wave.dir/wave.c.obj: C_COMPILER
   OBJECT_FILE_DIR = Platform\External\glfw\examples\CMakeFiles\wave.dir
 
 build Platform/External/glfw/examples/CMakeFiles/wave.dir/glfw.rc.obj: RC_COMPILER__wave_unscanned_Debug E$:/note/GameEngine/SparrowEngine/Platform/External/glfw/examples/glfw.rc || cmake_object_order_depends_target_wave
-  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSE_ENGINE_PLATFORM_WIN32
+  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSP_ENGINE_PLATFORM_WIN32
   DEP_FILE = Platform\External\glfw\examples\CMakeFiles\wave.dir\glfw.rc.obj.d
   INCLUDES = -I E:/note/GameEngine/SparrowEngine/Platform/Public -I E:/note/GameEngine/SparrowEngine/Core/Public -I E:/note/GameEngine/SparrowEngine/Platform/External/glfw/deps -I E:/note/GameEngine/SparrowEngine/Platform/External/glfw/include
   OBJECT_DIR = Platform\External\glfw\examples\CMakeFiles\wave.dir
   OBJECT_FILE_DIR = Platform\External\glfw\examples\CMakeFiles\wave.dir
 
 build Platform/External/glfw/examples/CMakeFiles/wave.dir/__/deps/glad_gl.c.obj: C_COMPILER__wave_unscanned_Debug E$:/note/GameEngine/SparrowEngine/Platform/External/glfw/deps/glad_gl.c || cmake_object_order_depends_target_wave
-  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSE_ENGINE_PLATFORM_WIN32
+  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSP_ENGINE_PLATFORM_WIN32
   DEP_FILE = Platform\External\glfw\examples\CMakeFiles\wave.dir\__\deps\glad_gl.c.obj.d
   FLAGS = -g -std=gnu99 -fdiagnostics-color=always
   INCLUDES = -IE:/note/GameEngine/SparrowEngine/Platform/Public -IE:/note/GameEngine/SparrowEngine/Core/Public -IE:/note/GameEngine/SparrowEngine/Platform/External/glfw/deps -IE:/note/GameEngine/SparrowEngine/Platform/External/glfw/include
@@ -1095,7 +1111,7 @@ build Platform/External/glfw/examples/install/strip: phony Platform/External/glf
 build cmake_object_order_depends_target_clipboard: phony || cmake_object_order_depends_target_glfw
 
 build Platform/External/glfw/tests/CMakeFiles/clipboard.dir/clipboard.c.obj: C_COMPILER__clipboard_unscanned_Debug E$:/note/GameEngine/SparrowEngine/Platform/External/glfw/tests/clipboard.c || cmake_object_order_depends_target_clipboard
-  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSE_ENGINE_PLATFORM_WIN32
+  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSP_ENGINE_PLATFORM_WIN32
   DEP_FILE = Platform\External\glfw\tests\CMakeFiles\clipboard.dir\clipboard.c.obj.d
   FLAGS = -g -std=gnu99 -fdiagnostics-color=always
   INCLUDES = -IE:/note/GameEngine/SparrowEngine/Platform/Public -IE:/note/GameEngine/SparrowEngine/Core/Public -IE:/note/GameEngine/SparrowEngine/Platform/External/glfw/deps -IE:/note/GameEngine/SparrowEngine/Platform/External/glfw/include
@@ -1103,7 +1119,7 @@ build Platform/External/glfw/tests/CMakeFiles/clipboard.dir/clipboard.c.obj: C_C
   OBJECT_FILE_DIR = Platform\External\glfw\tests\CMakeFiles\clipboard.dir
 
 build Platform/External/glfw/tests/CMakeFiles/clipboard.dir/__/deps/getopt.c.obj: C_COMPILER__clipboard_unscanned_Debug E$:/note/GameEngine/SparrowEngine/Platform/External/glfw/deps/getopt.c || cmake_object_order_depends_target_clipboard
-  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSE_ENGINE_PLATFORM_WIN32
+  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSP_ENGINE_PLATFORM_WIN32
   DEP_FILE = Platform\External\glfw\tests\CMakeFiles\clipboard.dir\__\deps\getopt.c.obj.d
   FLAGS = -g -std=gnu99 -fdiagnostics-color=always
   INCLUDES = -IE:/note/GameEngine/SparrowEngine/Platform/Public -IE:/note/GameEngine/SparrowEngine/Core/Public -IE:/note/GameEngine/SparrowEngine/Platform/External/glfw/deps -IE:/note/GameEngine/SparrowEngine/Platform/External/glfw/include
@@ -1111,7 +1127,7 @@ build Platform/External/glfw/tests/CMakeFiles/clipboard.dir/__/deps/getopt.c.obj
   OBJECT_FILE_DIR = Platform\External\glfw\tests\CMakeFiles\clipboard.dir\__\deps
 
 build Platform/External/glfw/tests/CMakeFiles/clipboard.dir/__/deps/glad_gl.c.obj: C_COMPILER__clipboard_unscanned_Debug E$:/note/GameEngine/SparrowEngine/Platform/External/glfw/deps/glad_gl.c || cmake_object_order_depends_target_clipboard
-  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSE_ENGINE_PLATFORM_WIN32
+  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSP_ENGINE_PLATFORM_WIN32
   DEP_FILE = Platform\External\glfw\tests\CMakeFiles\clipboard.dir\__\deps\glad_gl.c.obj.d
   FLAGS = -g -std=gnu99 -fdiagnostics-color=always
   INCLUDES = -IE:/note/GameEngine/SparrowEngine/Platform/Public -IE:/note/GameEngine/SparrowEngine/Core/Public -IE:/note/GameEngine/SparrowEngine/Platform/External/glfw/deps -IE:/note/GameEngine/SparrowEngine/Platform/External/glfw/include
@@ -1146,7 +1162,7 @@ build bin/clipboard.exe: C_EXECUTABLE_LINKER__clipboard_Debug Platform/External/
 build cmake_object_order_depends_target_events: phony || cmake_object_order_depends_target_glfw
 
 build Platform/External/glfw/tests/CMakeFiles/events.dir/events.c.obj: C_COMPILER__events_unscanned_Debug E$:/note/GameEngine/SparrowEngine/Platform/External/glfw/tests/events.c || cmake_object_order_depends_target_events
-  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSE_ENGINE_PLATFORM_WIN32
+  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSP_ENGINE_PLATFORM_WIN32
   DEP_FILE = Platform\External\glfw\tests\CMakeFiles\events.dir\events.c.obj.d
   FLAGS = -g -std=gnu99 -fdiagnostics-color=always
   INCLUDES = -IE:/note/GameEngine/SparrowEngine/Platform/Public -IE:/note/GameEngine/SparrowEngine/Core/Public -IE:/note/GameEngine/SparrowEngine/Platform/External/glfw/deps -IE:/note/GameEngine/SparrowEngine/Platform/External/glfw/include
@@ -1154,7 +1170,7 @@ build Platform/External/glfw/tests/CMakeFiles/events.dir/events.c.obj: C_COMPILE
   OBJECT_FILE_DIR = Platform\External\glfw\tests\CMakeFiles\events.dir
 
 build Platform/External/glfw/tests/CMakeFiles/events.dir/__/deps/getopt.c.obj: C_COMPILER__events_unscanned_Debug E$:/note/GameEngine/SparrowEngine/Platform/External/glfw/deps/getopt.c || cmake_object_order_depends_target_events
-  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSE_ENGINE_PLATFORM_WIN32
+  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSP_ENGINE_PLATFORM_WIN32
   DEP_FILE = Platform\External\glfw\tests\CMakeFiles\events.dir\__\deps\getopt.c.obj.d
   FLAGS = -g -std=gnu99 -fdiagnostics-color=always
   INCLUDES = -IE:/note/GameEngine/SparrowEngine/Platform/Public -IE:/note/GameEngine/SparrowEngine/Core/Public -IE:/note/GameEngine/SparrowEngine/Platform/External/glfw/deps -IE:/note/GameEngine/SparrowEngine/Platform/External/glfw/include
@@ -1162,7 +1178,7 @@ build Platform/External/glfw/tests/CMakeFiles/events.dir/__/deps/getopt.c.obj: C
   OBJECT_FILE_DIR = Platform\External\glfw\tests\CMakeFiles\events.dir\__\deps
 
 build Platform/External/glfw/tests/CMakeFiles/events.dir/__/deps/glad_gl.c.obj: C_COMPILER__events_unscanned_Debug E$:/note/GameEngine/SparrowEngine/Platform/External/glfw/deps/glad_gl.c || cmake_object_order_depends_target_events
-  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSE_ENGINE_PLATFORM_WIN32
+  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSP_ENGINE_PLATFORM_WIN32
   DEP_FILE = Platform\External\glfw\tests\CMakeFiles\events.dir\__\deps\glad_gl.c.obj.d
   FLAGS = -g -std=gnu99 -fdiagnostics-color=always
   INCLUDES = -IE:/note/GameEngine/SparrowEngine/Platform/Public -IE:/note/GameEngine/SparrowEngine/Core/Public -IE:/note/GameEngine/SparrowEngine/Platform/External/glfw/deps -IE:/note/GameEngine/SparrowEngine/Platform/External/glfw/include
@@ -1197,7 +1213,7 @@ build bin/events.exe: C_EXECUTABLE_LINKER__events_Debug Platform/External/glfw/t
 build cmake_object_order_depends_target_msaa: phony || cmake_object_order_depends_target_glfw
 
 build Platform/External/glfw/tests/CMakeFiles/msaa.dir/msaa.c.obj: C_COMPILER__msaa_unscanned_Debug E$:/note/GameEngine/SparrowEngine/Platform/External/glfw/tests/msaa.c || cmake_object_order_depends_target_msaa
-  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSE_ENGINE_PLATFORM_WIN32
+  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSP_ENGINE_PLATFORM_WIN32
   DEP_FILE = Platform\External\glfw\tests\CMakeFiles\msaa.dir\msaa.c.obj.d
   FLAGS = -g -std=gnu99 -fdiagnostics-color=always
   INCLUDES = -IE:/note/GameEngine/SparrowEngine/Platform/Public -IE:/note/GameEngine/SparrowEngine/Core/Public -IE:/note/GameEngine/SparrowEngine/Platform/External/glfw/deps -IE:/note/GameEngine/SparrowEngine/Platform/External/glfw/include
@@ -1205,7 +1221,7 @@ build Platform/External/glfw/tests/CMakeFiles/msaa.dir/msaa.c.obj: C_COMPILER__m
   OBJECT_FILE_DIR = Platform\External\glfw\tests\CMakeFiles\msaa.dir
 
 build Platform/External/glfw/tests/CMakeFiles/msaa.dir/__/deps/getopt.c.obj: C_COMPILER__msaa_unscanned_Debug E$:/note/GameEngine/SparrowEngine/Platform/External/glfw/deps/getopt.c || cmake_object_order_depends_target_msaa
-  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSE_ENGINE_PLATFORM_WIN32
+  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSP_ENGINE_PLATFORM_WIN32
   DEP_FILE = Platform\External\glfw\tests\CMakeFiles\msaa.dir\__\deps\getopt.c.obj.d
   FLAGS = -g -std=gnu99 -fdiagnostics-color=always
   INCLUDES = -IE:/note/GameEngine/SparrowEngine/Platform/Public -IE:/note/GameEngine/SparrowEngine/Core/Public -IE:/note/GameEngine/SparrowEngine/Platform/External/glfw/deps -IE:/note/GameEngine/SparrowEngine/Platform/External/glfw/include
@@ -1213,7 +1229,7 @@ build Platform/External/glfw/tests/CMakeFiles/msaa.dir/__/deps/getopt.c.obj: C_C
   OBJECT_FILE_DIR = Platform\External\glfw\tests\CMakeFiles\msaa.dir\__\deps
 
 build Platform/External/glfw/tests/CMakeFiles/msaa.dir/__/deps/glad_gl.c.obj: C_COMPILER__msaa_unscanned_Debug E$:/note/GameEngine/SparrowEngine/Platform/External/glfw/deps/glad_gl.c || cmake_object_order_depends_target_msaa
-  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSE_ENGINE_PLATFORM_WIN32
+  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSP_ENGINE_PLATFORM_WIN32
   DEP_FILE = Platform\External\glfw\tests\CMakeFiles\msaa.dir\__\deps\glad_gl.c.obj.d
   FLAGS = -g -std=gnu99 -fdiagnostics-color=always
   INCLUDES = -IE:/note/GameEngine/SparrowEngine/Platform/Public -IE:/note/GameEngine/SparrowEngine/Core/Public -IE:/note/GameEngine/SparrowEngine/Platform/External/glfw/deps -IE:/note/GameEngine/SparrowEngine/Platform/External/glfw/include
@@ -1248,7 +1264,7 @@ build bin/msaa.exe: C_EXECUTABLE_LINKER__msaa_Debug Platform/External/glfw/tests
 build cmake_object_order_depends_target_glfwinfo: phony || cmake_object_order_depends_target_glfw
 
 build Platform/External/glfw/tests/CMakeFiles/glfwinfo.dir/glfwinfo.c.obj: C_COMPILER__glfwinfo_unscanned_Debug E$:/note/GameEngine/SparrowEngine/Platform/External/glfw/tests/glfwinfo.c || cmake_object_order_depends_target_glfwinfo
-  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSE_ENGINE_PLATFORM_WIN32
+  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSP_ENGINE_PLATFORM_WIN32
   DEP_FILE = Platform\External\glfw\tests\CMakeFiles\glfwinfo.dir\glfwinfo.c.obj.d
   FLAGS = -g -std=gnu99 -fdiagnostics-color=always
   INCLUDES = -IE:/note/GameEngine/SparrowEngine/Platform/Public -IE:/note/GameEngine/SparrowEngine/Core/Public -IE:/note/GameEngine/SparrowEngine/Platform/External/glfw/deps -IE:/note/GameEngine/SparrowEngine/Platform/External/glfw/include
@@ -1256,7 +1272,7 @@ build Platform/External/glfw/tests/CMakeFiles/glfwinfo.dir/glfwinfo.c.obj: C_COM
   OBJECT_FILE_DIR = Platform\External\glfw\tests\CMakeFiles\glfwinfo.dir
 
 build Platform/External/glfw/tests/CMakeFiles/glfwinfo.dir/__/deps/getopt.c.obj: C_COMPILER__glfwinfo_unscanned_Debug E$:/note/GameEngine/SparrowEngine/Platform/External/glfw/deps/getopt.c || cmake_object_order_depends_target_glfwinfo
-  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSE_ENGINE_PLATFORM_WIN32
+  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSP_ENGINE_PLATFORM_WIN32
   DEP_FILE = Platform\External\glfw\tests\CMakeFiles\glfwinfo.dir\__\deps\getopt.c.obj.d
   FLAGS = -g -std=gnu99 -fdiagnostics-color=always
   INCLUDES = -IE:/note/GameEngine/SparrowEngine/Platform/Public -IE:/note/GameEngine/SparrowEngine/Core/Public -IE:/note/GameEngine/SparrowEngine/Platform/External/glfw/deps -IE:/note/GameEngine/SparrowEngine/Platform/External/glfw/include
@@ -1264,7 +1280,7 @@ build Platform/External/glfw/tests/CMakeFiles/glfwinfo.dir/__/deps/getopt.c.obj:
   OBJECT_FILE_DIR = Platform\External\glfw\tests\CMakeFiles\glfwinfo.dir\__\deps
 
 build Platform/External/glfw/tests/CMakeFiles/glfwinfo.dir/__/deps/glad_gl.c.obj: C_COMPILER__glfwinfo_unscanned_Debug E$:/note/GameEngine/SparrowEngine/Platform/External/glfw/deps/glad_gl.c || cmake_object_order_depends_target_glfwinfo
-  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSE_ENGINE_PLATFORM_WIN32
+  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSP_ENGINE_PLATFORM_WIN32
   DEP_FILE = Platform\External\glfw\tests\CMakeFiles\glfwinfo.dir\__\deps\glad_gl.c.obj.d
   FLAGS = -g -std=gnu99 -fdiagnostics-color=always
   INCLUDES = -IE:/note/GameEngine/SparrowEngine/Platform/Public -IE:/note/GameEngine/SparrowEngine/Core/Public -IE:/note/GameEngine/SparrowEngine/Platform/External/glfw/deps -IE:/note/GameEngine/SparrowEngine/Platform/External/glfw/include
@@ -1272,7 +1288,7 @@ build Platform/External/glfw/tests/CMakeFiles/glfwinfo.dir/__/deps/glad_gl.c.obj
   OBJECT_FILE_DIR = Platform\External\glfw\tests\CMakeFiles\glfwinfo.dir\__\deps
 
 build Platform/External/glfw/tests/CMakeFiles/glfwinfo.dir/__/deps/glad_vulkan.c.obj: C_COMPILER__glfwinfo_unscanned_Debug E$:/note/GameEngine/SparrowEngine/Platform/External/glfw/deps/glad_vulkan.c || cmake_object_order_depends_target_glfwinfo
-  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSE_ENGINE_PLATFORM_WIN32
+  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSP_ENGINE_PLATFORM_WIN32
   DEP_FILE = Platform\External\glfw\tests\CMakeFiles\glfwinfo.dir\__\deps\glad_vulkan.c.obj.d
   FLAGS = -g -std=gnu99 -fdiagnostics-color=always
   INCLUDES = -IE:/note/GameEngine/SparrowEngine/Platform/Public -IE:/note/GameEngine/SparrowEngine/Core/Public -IE:/note/GameEngine/SparrowEngine/Platform/External/glfw/deps -IE:/note/GameEngine/SparrowEngine/Platform/External/glfw/include
@@ -1307,7 +1323,7 @@ build bin/glfwinfo.exe: C_EXECUTABLE_LINKER__glfwinfo_Debug Platform/External/gl
 build cmake_object_order_depends_target_iconify: phony || cmake_object_order_depends_target_glfw
 
 build Platform/External/glfw/tests/CMakeFiles/iconify.dir/iconify.c.obj: C_COMPILER__iconify_unscanned_Debug E$:/note/GameEngine/SparrowEngine/Platform/External/glfw/tests/iconify.c || cmake_object_order_depends_target_iconify
-  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSE_ENGINE_PLATFORM_WIN32
+  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSP_ENGINE_PLATFORM_WIN32
   DEP_FILE = Platform\External\glfw\tests\CMakeFiles\iconify.dir\iconify.c.obj.d
   FLAGS = -g -std=gnu99 -fdiagnostics-color=always
   INCLUDES = -IE:/note/GameEngine/SparrowEngine/Platform/Public -IE:/note/GameEngine/SparrowEngine/Core/Public -IE:/note/GameEngine/SparrowEngine/Platform/External/glfw/deps -IE:/note/GameEngine/SparrowEngine/Platform/External/glfw/include
@@ -1315,7 +1331,7 @@ build Platform/External/glfw/tests/CMakeFiles/iconify.dir/iconify.c.obj: C_COMPI
   OBJECT_FILE_DIR = Platform\External\glfw\tests\CMakeFiles\iconify.dir
 
 build Platform/External/glfw/tests/CMakeFiles/iconify.dir/__/deps/getopt.c.obj: C_COMPILER__iconify_unscanned_Debug E$:/note/GameEngine/SparrowEngine/Platform/External/glfw/deps/getopt.c || cmake_object_order_depends_target_iconify
-  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSE_ENGINE_PLATFORM_WIN32
+  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSP_ENGINE_PLATFORM_WIN32
   DEP_FILE = Platform\External\glfw\tests\CMakeFiles\iconify.dir\__\deps\getopt.c.obj.d
   FLAGS = -g -std=gnu99 -fdiagnostics-color=always
   INCLUDES = -IE:/note/GameEngine/SparrowEngine/Platform/Public -IE:/note/GameEngine/SparrowEngine/Core/Public -IE:/note/GameEngine/SparrowEngine/Platform/External/glfw/deps -IE:/note/GameEngine/SparrowEngine/Platform/External/glfw/include
@@ -1323,7 +1339,7 @@ build Platform/External/glfw/tests/CMakeFiles/iconify.dir/__/deps/getopt.c.obj: 
   OBJECT_FILE_DIR = Platform\External\glfw\tests\CMakeFiles\iconify.dir\__\deps
 
 build Platform/External/glfw/tests/CMakeFiles/iconify.dir/__/deps/glad_gl.c.obj: C_COMPILER__iconify_unscanned_Debug E$:/note/GameEngine/SparrowEngine/Platform/External/glfw/deps/glad_gl.c || cmake_object_order_depends_target_iconify
-  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSE_ENGINE_PLATFORM_WIN32
+  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSP_ENGINE_PLATFORM_WIN32
   DEP_FILE = Platform\External\glfw\tests\CMakeFiles\iconify.dir\__\deps\glad_gl.c.obj.d
   FLAGS = -g -std=gnu99 -fdiagnostics-color=always
   INCLUDES = -IE:/note/GameEngine/SparrowEngine/Platform/Public -IE:/note/GameEngine/SparrowEngine/Core/Public -IE:/note/GameEngine/SparrowEngine/Platform/External/glfw/deps -IE:/note/GameEngine/SparrowEngine/Platform/External/glfw/include
@@ -1358,7 +1374,7 @@ build bin/iconify.exe: C_EXECUTABLE_LINKER__iconify_Debug Platform/External/glfw
 build cmake_object_order_depends_target_monitors: phony || cmake_object_order_depends_target_glfw
 
 build Platform/External/glfw/tests/CMakeFiles/monitors.dir/monitors.c.obj: C_COMPILER__monitors_unscanned_Debug E$:/note/GameEngine/SparrowEngine/Platform/External/glfw/tests/monitors.c || cmake_object_order_depends_target_monitors
-  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSE_ENGINE_PLATFORM_WIN32
+  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSP_ENGINE_PLATFORM_WIN32
   DEP_FILE = Platform\External\glfw\tests\CMakeFiles\monitors.dir\monitors.c.obj.d
   FLAGS = -g -std=gnu99 -fdiagnostics-color=always
   INCLUDES = -IE:/note/GameEngine/SparrowEngine/Platform/Public -IE:/note/GameEngine/SparrowEngine/Core/Public -IE:/note/GameEngine/SparrowEngine/Platform/External/glfw/deps -IE:/note/GameEngine/SparrowEngine/Platform/External/glfw/include
@@ -1366,7 +1382,7 @@ build Platform/External/glfw/tests/CMakeFiles/monitors.dir/monitors.c.obj: C_COM
   OBJECT_FILE_DIR = Platform\External\glfw\tests\CMakeFiles\monitors.dir
 
 build Platform/External/glfw/tests/CMakeFiles/monitors.dir/__/deps/getopt.c.obj: C_COMPILER__monitors_unscanned_Debug E$:/note/GameEngine/SparrowEngine/Platform/External/glfw/deps/getopt.c || cmake_object_order_depends_target_monitors
-  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSE_ENGINE_PLATFORM_WIN32
+  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSP_ENGINE_PLATFORM_WIN32
   DEP_FILE = Platform\External\glfw\tests\CMakeFiles\monitors.dir\__\deps\getopt.c.obj.d
   FLAGS = -g -std=gnu99 -fdiagnostics-color=always
   INCLUDES = -IE:/note/GameEngine/SparrowEngine/Platform/Public -IE:/note/GameEngine/SparrowEngine/Core/Public -IE:/note/GameEngine/SparrowEngine/Platform/External/glfw/deps -IE:/note/GameEngine/SparrowEngine/Platform/External/glfw/include
@@ -1374,7 +1390,7 @@ build Platform/External/glfw/tests/CMakeFiles/monitors.dir/__/deps/getopt.c.obj:
   OBJECT_FILE_DIR = Platform\External\glfw\tests\CMakeFiles\monitors.dir\__\deps
 
 build Platform/External/glfw/tests/CMakeFiles/monitors.dir/__/deps/glad_gl.c.obj: C_COMPILER__monitors_unscanned_Debug E$:/note/GameEngine/SparrowEngine/Platform/External/glfw/deps/glad_gl.c || cmake_object_order_depends_target_monitors
-  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSE_ENGINE_PLATFORM_WIN32
+  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSP_ENGINE_PLATFORM_WIN32
   DEP_FILE = Platform\External\glfw\tests\CMakeFiles\monitors.dir\__\deps\glad_gl.c.obj.d
   FLAGS = -g -std=gnu99 -fdiagnostics-color=always
   INCLUDES = -IE:/note/GameEngine/SparrowEngine/Platform/Public -IE:/note/GameEngine/SparrowEngine/Core/Public -IE:/note/GameEngine/SparrowEngine/Platform/External/glfw/deps -IE:/note/GameEngine/SparrowEngine/Platform/External/glfw/include
@@ -1409,7 +1425,7 @@ build bin/monitors.exe: C_EXECUTABLE_LINKER__monitors_Debug Platform/External/gl
 build cmake_object_order_depends_target_reopen: phony || cmake_object_order_depends_target_glfw
 
 build Platform/External/glfw/tests/CMakeFiles/reopen.dir/reopen.c.obj: C_COMPILER__reopen_unscanned_Debug E$:/note/GameEngine/SparrowEngine/Platform/External/glfw/tests/reopen.c || cmake_object_order_depends_target_reopen
-  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSE_ENGINE_PLATFORM_WIN32
+  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSP_ENGINE_PLATFORM_WIN32
   DEP_FILE = Platform\External\glfw\tests\CMakeFiles\reopen.dir\reopen.c.obj.d
   FLAGS = -g -std=gnu99 -fdiagnostics-color=always
   INCLUDES = -IE:/note/GameEngine/SparrowEngine/Platform/Public -IE:/note/GameEngine/SparrowEngine/Core/Public -IE:/note/GameEngine/SparrowEngine/Platform/External/glfw/deps -IE:/note/GameEngine/SparrowEngine/Platform/External/glfw/include
@@ -1417,7 +1433,7 @@ build Platform/External/glfw/tests/CMakeFiles/reopen.dir/reopen.c.obj: C_COMPILE
   OBJECT_FILE_DIR = Platform\External\glfw\tests\CMakeFiles\reopen.dir
 
 build Platform/External/glfw/tests/CMakeFiles/reopen.dir/__/deps/glad_gl.c.obj: C_COMPILER__reopen_unscanned_Debug E$:/note/GameEngine/SparrowEngine/Platform/External/glfw/deps/glad_gl.c || cmake_object_order_depends_target_reopen
-  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSE_ENGINE_PLATFORM_WIN32
+  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSP_ENGINE_PLATFORM_WIN32
   DEP_FILE = Platform\External\glfw\tests\CMakeFiles\reopen.dir\__\deps\glad_gl.c.obj.d
   FLAGS = -g -std=gnu99 -fdiagnostics-color=always
   INCLUDES = -IE:/note/GameEngine/SparrowEngine/Platform/Public -IE:/note/GameEngine/SparrowEngine/Core/Public -IE:/note/GameEngine/SparrowEngine/Platform/External/glfw/deps -IE:/note/GameEngine/SparrowEngine/Platform/External/glfw/include
@@ -1452,7 +1468,7 @@ build bin/reopen.exe: C_EXECUTABLE_LINKER__reopen_Debug Platform/External/glfw/t
 build cmake_object_order_depends_target_cursor: phony || cmake_object_order_depends_target_glfw
 
 build Platform/External/glfw/tests/CMakeFiles/cursor.dir/cursor.c.obj: C_COMPILER__cursor_unscanned_Debug E$:/note/GameEngine/SparrowEngine/Platform/External/glfw/tests/cursor.c || cmake_object_order_depends_target_cursor
-  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSE_ENGINE_PLATFORM_WIN32
+  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSP_ENGINE_PLATFORM_WIN32
   DEP_FILE = Platform\External\glfw\tests\CMakeFiles\cursor.dir\cursor.c.obj.d
   FLAGS = -g -std=gnu99 -fdiagnostics-color=always
   INCLUDES = -IE:/note/GameEngine/SparrowEngine/Platform/Public -IE:/note/GameEngine/SparrowEngine/Core/Public -IE:/note/GameEngine/SparrowEngine/Platform/External/glfw/deps -IE:/note/GameEngine/SparrowEngine/Platform/External/glfw/include
@@ -1460,7 +1476,7 @@ build Platform/External/glfw/tests/CMakeFiles/cursor.dir/cursor.c.obj: C_COMPILE
   OBJECT_FILE_DIR = Platform\External\glfw\tests\CMakeFiles\cursor.dir
 
 build Platform/External/glfw/tests/CMakeFiles/cursor.dir/__/deps/glad_gl.c.obj: C_COMPILER__cursor_unscanned_Debug E$:/note/GameEngine/SparrowEngine/Platform/External/glfw/deps/glad_gl.c || cmake_object_order_depends_target_cursor
-  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSE_ENGINE_PLATFORM_WIN32
+  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSP_ENGINE_PLATFORM_WIN32
   DEP_FILE = Platform\External\glfw\tests\CMakeFiles\cursor.dir\__\deps\glad_gl.c.obj.d
   FLAGS = -g -std=gnu99 -fdiagnostics-color=always
   INCLUDES = -IE:/note/GameEngine/SparrowEngine/Platform/Public -IE:/note/GameEngine/SparrowEngine/Core/Public -IE:/note/GameEngine/SparrowEngine/Platform/External/glfw/deps -IE:/note/GameEngine/SparrowEngine/Platform/External/glfw/include
@@ -1495,7 +1511,7 @@ build bin/cursor.exe: C_EXECUTABLE_LINKER__cursor_Debug Platform/External/glfw/t
 build cmake_object_order_depends_target_empty: phony || cmake_object_order_depends_target_glfw
 
 build Platform/External/glfw/tests/CMakeFiles/empty.dir/empty.c.obj: C_COMPILER__empty_unscanned_Debug E$:/note/GameEngine/SparrowEngine/Platform/External/glfw/tests/empty.c || cmake_object_order_depends_target_empty
-  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSE_ENGINE_PLATFORM_WIN32
+  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSP_ENGINE_PLATFORM_WIN32
   DEP_FILE = Platform\External\glfw\tests\CMakeFiles\empty.dir\empty.c.obj.d
   FLAGS = -g -std=gnu99 -fdiagnostics-color=always
   INCLUDES = -IE:/note/GameEngine/SparrowEngine/Platform/Public -IE:/note/GameEngine/SparrowEngine/Core/Public -IE:/note/GameEngine/SparrowEngine/Platform/External/glfw/deps -IE:/note/GameEngine/SparrowEngine/Platform/External/glfw/include
@@ -1503,7 +1519,7 @@ build Platform/External/glfw/tests/CMakeFiles/empty.dir/empty.c.obj: C_COMPILER_
   OBJECT_FILE_DIR = Platform\External\glfw\tests\CMakeFiles\empty.dir
 
 build Platform/External/glfw/tests/CMakeFiles/empty.dir/__/deps/tinycthread.c.obj: C_COMPILER__empty_unscanned_Debug E$:/note/GameEngine/SparrowEngine/Platform/External/glfw/deps/tinycthread.c || cmake_object_order_depends_target_empty
-  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSE_ENGINE_PLATFORM_WIN32
+  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSP_ENGINE_PLATFORM_WIN32
   DEP_FILE = Platform\External\glfw\tests\CMakeFiles\empty.dir\__\deps\tinycthread.c.obj.d
   FLAGS = -g -std=gnu99 -fdiagnostics-color=always
   INCLUDES = -IE:/note/GameEngine/SparrowEngine/Platform/Public -IE:/note/GameEngine/SparrowEngine/Core/Public -IE:/note/GameEngine/SparrowEngine/Platform/External/glfw/deps -IE:/note/GameEngine/SparrowEngine/Platform/External/glfw/include
@@ -1511,7 +1527,7 @@ build Platform/External/glfw/tests/CMakeFiles/empty.dir/__/deps/tinycthread.c.ob
   OBJECT_FILE_DIR = Platform\External\glfw\tests\CMakeFiles\empty.dir\__\deps
 
 build Platform/External/glfw/tests/CMakeFiles/empty.dir/__/deps/glad_gl.c.obj: C_COMPILER__empty_unscanned_Debug E$:/note/GameEngine/SparrowEngine/Platform/External/glfw/deps/glad_gl.c || cmake_object_order_depends_target_empty
-  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSE_ENGINE_PLATFORM_WIN32
+  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSP_ENGINE_PLATFORM_WIN32
   DEP_FILE = Platform\External\glfw\tests\CMakeFiles\empty.dir\__\deps\glad_gl.c.obj.d
   FLAGS = -g -std=gnu99 -fdiagnostics-color=always
   INCLUDES = -IE:/note/GameEngine/SparrowEngine/Platform/Public -IE:/note/GameEngine/SparrowEngine/Core/Public -IE:/note/GameEngine/SparrowEngine/Platform/External/glfw/deps -IE:/note/GameEngine/SparrowEngine/Platform/External/glfw/include
@@ -1547,7 +1563,7 @@ build bin/empty.exe: C_EXECUTABLE_LINKER__empty_Debug Platform/External/glfw/tes
 build cmake_object_order_depends_target_gamma: phony || cmake_object_order_depends_target_glfw
 
 build Platform/External/glfw/tests/CMakeFiles/gamma.dir/gamma.c.obj: C_COMPILER__gamma_unscanned_Debug E$:/note/GameEngine/SparrowEngine/Platform/External/glfw/tests/gamma.c || cmake_object_order_depends_target_gamma
-  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSE_ENGINE_PLATFORM_WIN32
+  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSP_ENGINE_PLATFORM_WIN32
   DEP_FILE = Platform\External\glfw\tests\CMakeFiles\gamma.dir\gamma.c.obj.d
   FLAGS = -g -std=gnu99 -fdiagnostics-color=always
   INCLUDES = -IE:/note/GameEngine/SparrowEngine/Platform/Public -IE:/note/GameEngine/SparrowEngine/Core/Public -IE:/note/GameEngine/SparrowEngine/Platform/External/glfw/deps -IE:/note/GameEngine/SparrowEngine/Platform/External/glfw/include
@@ -1555,7 +1571,7 @@ build Platform/External/glfw/tests/CMakeFiles/gamma.dir/gamma.c.obj: C_COMPILER_
   OBJECT_FILE_DIR = Platform\External\glfw\tests\CMakeFiles\gamma.dir
 
 build Platform/External/glfw/tests/CMakeFiles/gamma.dir/__/deps/glad_gl.c.obj: C_COMPILER__gamma_unscanned_Debug E$:/note/GameEngine/SparrowEngine/Platform/External/glfw/deps/glad_gl.c || cmake_object_order_depends_target_gamma
-  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSE_ENGINE_PLATFORM_WIN32
+  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSP_ENGINE_PLATFORM_WIN32
   DEP_FILE = Platform\External\glfw\tests\CMakeFiles\gamma.dir\__\deps\glad_gl.c.obj.d
   FLAGS = -g -std=gnu99 -fdiagnostics-color=always
   INCLUDES = -IE:/note/GameEngine/SparrowEngine/Platform/Public -IE:/note/GameEngine/SparrowEngine/Core/Public -IE:/note/GameEngine/SparrowEngine/Platform/External/glfw/deps -IE:/note/GameEngine/SparrowEngine/Platform/External/glfw/include
@@ -1591,7 +1607,7 @@ build bin/gamma.exe: C_EXECUTABLE_LINKER__gamma_Debug Platform/External/glfw/tes
 build cmake_object_order_depends_target_icon: phony || cmake_object_order_depends_target_glfw
 
 build Platform/External/glfw/tests/CMakeFiles/icon.dir/icon.c.obj: C_COMPILER__icon_unscanned_Debug E$:/note/GameEngine/SparrowEngine/Platform/External/glfw/tests/icon.c || cmake_object_order_depends_target_icon
-  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSE_ENGINE_PLATFORM_WIN32
+  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSP_ENGINE_PLATFORM_WIN32
   DEP_FILE = Platform\External\glfw\tests\CMakeFiles\icon.dir\icon.c.obj.d
   FLAGS = -g -std=gnu99 -fdiagnostics-color=always
   INCLUDES = -IE:/note/GameEngine/SparrowEngine/Platform/Public -IE:/note/GameEngine/SparrowEngine/Core/Public -IE:/note/GameEngine/SparrowEngine/Platform/External/glfw/deps -IE:/note/GameEngine/SparrowEngine/Platform/External/glfw/include
@@ -1599,7 +1615,7 @@ build Platform/External/glfw/tests/CMakeFiles/icon.dir/icon.c.obj: C_COMPILER__i
   OBJECT_FILE_DIR = Platform\External\glfw\tests\CMakeFiles\icon.dir
 
 build Platform/External/glfw/tests/CMakeFiles/icon.dir/__/deps/glad_gl.c.obj: C_COMPILER__icon_unscanned_Debug E$:/note/GameEngine/SparrowEngine/Platform/External/glfw/deps/glad_gl.c || cmake_object_order_depends_target_icon
-  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSE_ENGINE_PLATFORM_WIN32
+  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSP_ENGINE_PLATFORM_WIN32
   DEP_FILE = Platform\External\glfw\tests\CMakeFiles\icon.dir\__\deps\glad_gl.c.obj.d
   FLAGS = -g -std=gnu99 -fdiagnostics-color=always
   INCLUDES = -IE:/note/GameEngine/SparrowEngine/Platform/Public -IE:/note/GameEngine/SparrowEngine/Core/Public -IE:/note/GameEngine/SparrowEngine/Platform/External/glfw/deps -IE:/note/GameEngine/SparrowEngine/Platform/External/glfw/include
@@ -1635,7 +1651,7 @@ build bin/icon.exe: C_EXECUTABLE_LINKER__icon_Debug Platform/External/glfw/tests
 build cmake_object_order_depends_target_inputlag: phony || cmake_object_order_depends_target_glfw
 
 build Platform/External/glfw/tests/CMakeFiles/inputlag.dir/inputlag.c.obj: C_COMPILER__inputlag_unscanned_Debug E$:/note/GameEngine/SparrowEngine/Platform/External/glfw/tests/inputlag.c || cmake_object_order_depends_target_inputlag
-  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSE_ENGINE_PLATFORM_WIN32
+  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSP_ENGINE_PLATFORM_WIN32
   DEP_FILE = Platform\External\glfw\tests\CMakeFiles\inputlag.dir\inputlag.c.obj.d
   FLAGS = -g -std=gnu99 -fdiagnostics-color=always
   INCLUDES = -IE:/note/GameEngine/SparrowEngine/Platform/Public -IE:/note/GameEngine/SparrowEngine/Core/Public -IE:/note/GameEngine/SparrowEngine/Platform/External/glfw/deps -IE:/note/GameEngine/SparrowEngine/Platform/External/glfw/include
@@ -1643,7 +1659,7 @@ build Platform/External/glfw/tests/CMakeFiles/inputlag.dir/inputlag.c.obj: C_COM
   OBJECT_FILE_DIR = Platform\External\glfw\tests\CMakeFiles\inputlag.dir
 
 build Platform/External/glfw/tests/CMakeFiles/inputlag.dir/__/deps/getopt.c.obj: C_COMPILER__inputlag_unscanned_Debug E$:/note/GameEngine/SparrowEngine/Platform/External/glfw/deps/getopt.c || cmake_object_order_depends_target_inputlag
-  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSE_ENGINE_PLATFORM_WIN32
+  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSP_ENGINE_PLATFORM_WIN32
   DEP_FILE = Platform\External\glfw\tests\CMakeFiles\inputlag.dir\__\deps\getopt.c.obj.d
   FLAGS = -g -std=gnu99 -fdiagnostics-color=always
   INCLUDES = -IE:/note/GameEngine/SparrowEngine/Platform/Public -IE:/note/GameEngine/SparrowEngine/Core/Public -IE:/note/GameEngine/SparrowEngine/Platform/External/glfw/deps -IE:/note/GameEngine/SparrowEngine/Platform/External/glfw/include
@@ -1651,7 +1667,7 @@ build Platform/External/glfw/tests/CMakeFiles/inputlag.dir/__/deps/getopt.c.obj:
   OBJECT_FILE_DIR = Platform\External\glfw\tests\CMakeFiles\inputlag.dir\__\deps
 
 build Platform/External/glfw/tests/CMakeFiles/inputlag.dir/__/deps/glad_gl.c.obj: C_COMPILER__inputlag_unscanned_Debug E$:/note/GameEngine/SparrowEngine/Platform/External/glfw/deps/glad_gl.c || cmake_object_order_depends_target_inputlag
-  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSE_ENGINE_PLATFORM_WIN32
+  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSP_ENGINE_PLATFORM_WIN32
   DEP_FILE = Platform\External\glfw\tests\CMakeFiles\inputlag.dir\__\deps\glad_gl.c.obj.d
   FLAGS = -g -std=gnu99 -fdiagnostics-color=always
   INCLUDES = -IE:/note/GameEngine/SparrowEngine/Platform/Public -IE:/note/GameEngine/SparrowEngine/Core/Public -IE:/note/GameEngine/SparrowEngine/Platform/External/glfw/deps -IE:/note/GameEngine/SparrowEngine/Platform/External/glfw/include
@@ -1687,7 +1703,7 @@ build bin/inputlag.exe: C_EXECUTABLE_LINKER__inputlag_Debug Platform/External/gl
 build cmake_object_order_depends_target_joysticks: phony || cmake_object_order_depends_target_glfw
 
 build Platform/External/glfw/tests/CMakeFiles/joysticks.dir/joysticks.c.obj: C_COMPILER__joysticks_unscanned_Debug E$:/note/GameEngine/SparrowEngine/Platform/External/glfw/tests/joysticks.c || cmake_object_order_depends_target_joysticks
-  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSE_ENGINE_PLATFORM_WIN32
+  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSP_ENGINE_PLATFORM_WIN32
   DEP_FILE = Platform\External\glfw\tests\CMakeFiles\joysticks.dir\joysticks.c.obj.d
   FLAGS = -g -std=gnu99 -fdiagnostics-color=always
   INCLUDES = -IE:/note/GameEngine/SparrowEngine/Platform/Public -IE:/note/GameEngine/SparrowEngine/Core/Public -IE:/note/GameEngine/SparrowEngine/Platform/External/glfw/deps -IE:/note/GameEngine/SparrowEngine/Platform/External/glfw/include
@@ -1695,7 +1711,7 @@ build Platform/External/glfw/tests/CMakeFiles/joysticks.dir/joysticks.c.obj: C_C
   OBJECT_FILE_DIR = Platform\External\glfw\tests\CMakeFiles\joysticks.dir
 
 build Platform/External/glfw/tests/CMakeFiles/joysticks.dir/__/deps/glad_gl.c.obj: C_COMPILER__joysticks_unscanned_Debug E$:/note/GameEngine/SparrowEngine/Platform/External/glfw/deps/glad_gl.c || cmake_object_order_depends_target_joysticks
-  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSE_ENGINE_PLATFORM_WIN32
+  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSP_ENGINE_PLATFORM_WIN32
   DEP_FILE = Platform\External\glfw\tests\CMakeFiles\joysticks.dir\__\deps\glad_gl.c.obj.d
   FLAGS = -g -std=gnu99 -fdiagnostics-color=always
   INCLUDES = -IE:/note/GameEngine/SparrowEngine/Platform/Public -IE:/note/GameEngine/SparrowEngine/Core/Public -IE:/note/GameEngine/SparrowEngine/Platform/External/glfw/deps -IE:/note/GameEngine/SparrowEngine/Platform/External/glfw/include
@@ -1731,7 +1747,7 @@ build bin/joysticks.exe: C_EXECUTABLE_LINKER__joysticks_Debug Platform/External/
 build cmake_object_order_depends_target_opacity: phony || cmake_object_order_depends_target_glfw
 
 build Platform/External/glfw/tests/CMakeFiles/opacity.dir/opacity.c.obj: C_COMPILER__opacity_unscanned_Debug E$:/note/GameEngine/SparrowEngine/Platform/External/glfw/tests/opacity.c || cmake_object_order_depends_target_opacity
-  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSE_ENGINE_PLATFORM_WIN32
+  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSP_ENGINE_PLATFORM_WIN32
   DEP_FILE = Platform\External\glfw\tests\CMakeFiles\opacity.dir\opacity.c.obj.d
   FLAGS = -g -std=gnu99 -fdiagnostics-color=always
   INCLUDES = -IE:/note/GameEngine/SparrowEngine/Platform/Public -IE:/note/GameEngine/SparrowEngine/Core/Public -IE:/note/GameEngine/SparrowEngine/Platform/External/glfw/deps -IE:/note/GameEngine/SparrowEngine/Platform/External/glfw/include
@@ -1739,7 +1755,7 @@ build Platform/External/glfw/tests/CMakeFiles/opacity.dir/opacity.c.obj: C_COMPI
   OBJECT_FILE_DIR = Platform\External\glfw\tests\CMakeFiles\opacity.dir
 
 build Platform/External/glfw/tests/CMakeFiles/opacity.dir/__/deps/glad_gl.c.obj: C_COMPILER__opacity_unscanned_Debug E$:/note/GameEngine/SparrowEngine/Platform/External/glfw/deps/glad_gl.c || cmake_object_order_depends_target_opacity
-  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSE_ENGINE_PLATFORM_WIN32
+  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSP_ENGINE_PLATFORM_WIN32
   DEP_FILE = Platform\External\glfw\tests\CMakeFiles\opacity.dir\__\deps\glad_gl.c.obj.d
   FLAGS = -g -std=gnu99 -fdiagnostics-color=always
   INCLUDES = -IE:/note/GameEngine/SparrowEngine/Platform/Public -IE:/note/GameEngine/SparrowEngine/Core/Public -IE:/note/GameEngine/SparrowEngine/Platform/External/glfw/deps -IE:/note/GameEngine/SparrowEngine/Platform/External/glfw/include
@@ -1775,7 +1791,7 @@ build bin/opacity.exe: C_EXECUTABLE_LINKER__opacity_Debug Platform/External/glfw
 build cmake_object_order_depends_target_tearing: phony || cmake_object_order_depends_target_glfw
 
 build Platform/External/glfw/tests/CMakeFiles/tearing.dir/tearing.c.obj: C_COMPILER__tearing_unscanned_Debug E$:/note/GameEngine/SparrowEngine/Platform/External/glfw/tests/tearing.c || cmake_object_order_depends_target_tearing
-  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSE_ENGINE_PLATFORM_WIN32
+  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSP_ENGINE_PLATFORM_WIN32
   DEP_FILE = Platform\External\glfw\tests\CMakeFiles\tearing.dir\tearing.c.obj.d
   FLAGS = -g -std=gnu99 -fdiagnostics-color=always
   INCLUDES = -IE:/note/GameEngine/SparrowEngine/Platform/Public -IE:/note/GameEngine/SparrowEngine/Core/Public -IE:/note/GameEngine/SparrowEngine/Platform/External/glfw/deps -IE:/note/GameEngine/SparrowEngine/Platform/External/glfw/include
@@ -1783,7 +1799,7 @@ build Platform/External/glfw/tests/CMakeFiles/tearing.dir/tearing.c.obj: C_COMPI
   OBJECT_FILE_DIR = Platform\External\glfw\tests\CMakeFiles\tearing.dir
 
 build Platform/External/glfw/tests/CMakeFiles/tearing.dir/__/deps/glad_gl.c.obj: C_COMPILER__tearing_unscanned_Debug E$:/note/GameEngine/SparrowEngine/Platform/External/glfw/deps/glad_gl.c || cmake_object_order_depends_target_tearing
-  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSE_ENGINE_PLATFORM_WIN32
+  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSP_ENGINE_PLATFORM_WIN32
   DEP_FILE = Platform\External\glfw\tests\CMakeFiles\tearing.dir\__\deps\glad_gl.c.obj.d
   FLAGS = -g -std=gnu99 -fdiagnostics-color=always
   INCLUDES = -IE:/note/GameEngine/SparrowEngine/Platform/Public -IE:/note/GameEngine/SparrowEngine/Core/Public -IE:/note/GameEngine/SparrowEngine/Platform/External/glfw/deps -IE:/note/GameEngine/SparrowEngine/Platform/External/glfw/include
@@ -1819,7 +1835,7 @@ build bin/tearing.exe: C_EXECUTABLE_LINKER__tearing_Debug Platform/External/glfw
 build cmake_object_order_depends_target_threads: phony || cmake_object_order_depends_target_glfw
 
 build Platform/External/glfw/tests/CMakeFiles/threads.dir/threads.c.obj: C_COMPILER__threads_unscanned_Debug E$:/note/GameEngine/SparrowEngine/Platform/External/glfw/tests/threads.c || cmake_object_order_depends_target_threads
-  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSE_ENGINE_PLATFORM_WIN32
+  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSP_ENGINE_PLATFORM_WIN32
   DEP_FILE = Platform\External\glfw\tests\CMakeFiles\threads.dir\threads.c.obj.d
   FLAGS = -g -std=gnu99 -fdiagnostics-color=always
   INCLUDES = -IE:/note/GameEngine/SparrowEngine/Platform/Public -IE:/note/GameEngine/SparrowEngine/Core/Public -IE:/note/GameEngine/SparrowEngine/Platform/External/glfw/deps -IE:/note/GameEngine/SparrowEngine/Platform/External/glfw/include
@@ -1827,7 +1843,7 @@ build Platform/External/glfw/tests/CMakeFiles/threads.dir/threads.c.obj: C_COMPI
   OBJECT_FILE_DIR = Platform\External\glfw\tests\CMakeFiles\threads.dir
 
 build Platform/External/glfw/tests/CMakeFiles/threads.dir/__/deps/tinycthread.c.obj: C_COMPILER__threads_unscanned_Debug E$:/note/GameEngine/SparrowEngine/Platform/External/glfw/deps/tinycthread.c || cmake_object_order_depends_target_threads
-  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSE_ENGINE_PLATFORM_WIN32
+  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSP_ENGINE_PLATFORM_WIN32
   DEP_FILE = Platform\External\glfw\tests\CMakeFiles\threads.dir\__\deps\tinycthread.c.obj.d
   FLAGS = -g -std=gnu99 -fdiagnostics-color=always
   INCLUDES = -IE:/note/GameEngine/SparrowEngine/Platform/Public -IE:/note/GameEngine/SparrowEngine/Core/Public -IE:/note/GameEngine/SparrowEngine/Platform/External/glfw/deps -IE:/note/GameEngine/SparrowEngine/Platform/External/glfw/include
@@ -1835,7 +1851,7 @@ build Platform/External/glfw/tests/CMakeFiles/threads.dir/__/deps/tinycthread.c.
   OBJECT_FILE_DIR = Platform\External\glfw\tests\CMakeFiles\threads.dir\__\deps
 
 build Platform/External/glfw/tests/CMakeFiles/threads.dir/__/deps/glad_gl.c.obj: C_COMPILER__threads_unscanned_Debug E$:/note/GameEngine/SparrowEngine/Platform/External/glfw/deps/glad_gl.c || cmake_object_order_depends_target_threads
-  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSE_ENGINE_PLATFORM_WIN32
+  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSP_ENGINE_PLATFORM_WIN32
   DEP_FILE = Platform\External\glfw\tests\CMakeFiles\threads.dir\__\deps\glad_gl.c.obj.d
   FLAGS = -g -std=gnu99 -fdiagnostics-color=always
   INCLUDES = -IE:/note/GameEngine/SparrowEngine/Platform/Public -IE:/note/GameEngine/SparrowEngine/Core/Public -IE:/note/GameEngine/SparrowEngine/Platform/External/glfw/deps -IE:/note/GameEngine/SparrowEngine/Platform/External/glfw/include
@@ -1871,7 +1887,7 @@ build bin/threads.exe: C_EXECUTABLE_LINKER__threads_Debug Platform/External/glfw
 build cmake_object_order_depends_target_timeout: phony || cmake_object_order_depends_target_glfw
 
 build Platform/External/glfw/tests/CMakeFiles/timeout.dir/timeout.c.obj: C_COMPILER__timeout_unscanned_Debug E$:/note/GameEngine/SparrowEngine/Platform/External/glfw/tests/timeout.c || cmake_object_order_depends_target_timeout
-  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSE_ENGINE_PLATFORM_WIN32
+  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSP_ENGINE_PLATFORM_WIN32
   DEP_FILE = Platform\External\glfw\tests\CMakeFiles\timeout.dir\timeout.c.obj.d
   FLAGS = -g -std=gnu99 -fdiagnostics-color=always
   INCLUDES = -IE:/note/GameEngine/SparrowEngine/Platform/Public -IE:/note/GameEngine/SparrowEngine/Core/Public -IE:/note/GameEngine/SparrowEngine/Platform/External/glfw/deps -IE:/note/GameEngine/SparrowEngine/Platform/External/glfw/include
@@ -1879,7 +1895,7 @@ build Platform/External/glfw/tests/CMakeFiles/timeout.dir/timeout.c.obj: C_COMPI
   OBJECT_FILE_DIR = Platform\External\glfw\tests\CMakeFiles\timeout.dir
 
 build Platform/External/glfw/tests/CMakeFiles/timeout.dir/__/deps/glad_gl.c.obj: C_COMPILER__timeout_unscanned_Debug E$:/note/GameEngine/SparrowEngine/Platform/External/glfw/deps/glad_gl.c || cmake_object_order_depends_target_timeout
-  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSE_ENGINE_PLATFORM_WIN32
+  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSP_ENGINE_PLATFORM_WIN32
   DEP_FILE = Platform\External\glfw\tests\CMakeFiles\timeout.dir\__\deps\glad_gl.c.obj.d
   FLAGS = -g -std=gnu99 -fdiagnostics-color=always
   INCLUDES = -IE:/note/GameEngine/SparrowEngine/Platform/Public -IE:/note/GameEngine/SparrowEngine/Core/Public -IE:/note/GameEngine/SparrowEngine/Platform/External/glfw/deps -IE:/note/GameEngine/SparrowEngine/Platform/External/glfw/include
@@ -1915,7 +1931,7 @@ build bin/timeout.exe: C_EXECUTABLE_LINKER__timeout_Debug Platform/External/glfw
 build cmake_object_order_depends_target_title: phony || cmake_object_order_depends_target_glfw
 
 build Platform/External/glfw/tests/CMakeFiles/title.dir/title.c.obj: C_COMPILER__title_unscanned_Debug E$:/note/GameEngine/SparrowEngine/Platform/External/glfw/tests/title.c || cmake_object_order_depends_target_title
-  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSE_ENGINE_PLATFORM_WIN32
+  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSP_ENGINE_PLATFORM_WIN32
   DEP_FILE = Platform\External\glfw\tests\CMakeFiles\title.dir\title.c.obj.d
   FLAGS = -g -std=gnu99 -fdiagnostics-color=always
   INCLUDES = -IE:/note/GameEngine/SparrowEngine/Platform/Public -IE:/note/GameEngine/SparrowEngine/Core/Public -IE:/note/GameEngine/SparrowEngine/Platform/External/glfw/deps -IE:/note/GameEngine/SparrowEngine/Platform/External/glfw/include
@@ -1923,7 +1939,7 @@ build Platform/External/glfw/tests/CMakeFiles/title.dir/title.c.obj: C_COMPILER_
   OBJECT_FILE_DIR = Platform\External\glfw\tests\CMakeFiles\title.dir
 
 build Platform/External/glfw/tests/CMakeFiles/title.dir/__/deps/glad_gl.c.obj: C_COMPILER__title_unscanned_Debug E$:/note/GameEngine/SparrowEngine/Platform/External/glfw/deps/glad_gl.c || cmake_object_order_depends_target_title
-  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSE_ENGINE_PLATFORM_WIN32
+  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSP_ENGINE_PLATFORM_WIN32
   DEP_FILE = Platform\External\glfw\tests\CMakeFiles\title.dir\__\deps\glad_gl.c.obj.d
   FLAGS = -g -std=gnu99 -fdiagnostics-color=always
   INCLUDES = -IE:/note/GameEngine/SparrowEngine/Platform/Public -IE:/note/GameEngine/SparrowEngine/Core/Public -IE:/note/GameEngine/SparrowEngine/Platform/External/glfw/deps -IE:/note/GameEngine/SparrowEngine/Platform/External/glfw/include
@@ -1959,7 +1975,7 @@ build bin/title.exe: C_EXECUTABLE_LINKER__title_Debug Platform/External/glfw/tes
 build cmake_object_order_depends_target_triangle-vulkan: phony || cmake_object_order_depends_target_glfw
 
 build Platform/External/glfw/tests/CMakeFiles/triangle-vulkan.dir/triangle-vulkan.c.obj: C_COMPILER__triangle-vulkan_unscanned_Debug E$:/note/GameEngine/SparrowEngine/Platform/External/glfw/tests/triangle-vulkan.c || cmake_object_order_depends_target_triangle-vulkan
-  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSE_ENGINE_PLATFORM_WIN32
+  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSP_ENGINE_PLATFORM_WIN32
   DEP_FILE = Platform\External\glfw\tests\CMakeFiles\triangle-vulkan.dir\triangle-vulkan.c.obj.d
   FLAGS = -g -std=gnu99 -fdiagnostics-color=always
   INCLUDES = -IE:/note/GameEngine/SparrowEngine/Platform/Public -IE:/note/GameEngine/SparrowEngine/Core/Public -IE:/note/GameEngine/SparrowEngine/Platform/External/glfw/deps -IE:/note/GameEngine/SparrowEngine/Platform/External/glfw/include
@@ -1967,7 +1983,7 @@ build Platform/External/glfw/tests/CMakeFiles/triangle-vulkan.dir/triangle-vulka
   OBJECT_FILE_DIR = Platform\External\glfw\tests\CMakeFiles\triangle-vulkan.dir
 
 build Platform/External/glfw/tests/CMakeFiles/triangle-vulkan.dir/__/deps/glad_vulkan.c.obj: C_COMPILER__triangle-vulkan_unscanned_Debug E$:/note/GameEngine/SparrowEngine/Platform/External/glfw/deps/glad_vulkan.c || cmake_object_order_depends_target_triangle-vulkan
-  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSE_ENGINE_PLATFORM_WIN32
+  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSP_ENGINE_PLATFORM_WIN32
   DEP_FILE = Platform\External\glfw\tests\CMakeFiles\triangle-vulkan.dir\__\deps\glad_vulkan.c.obj.d
   FLAGS = -g -std=gnu99 -fdiagnostics-color=always
   INCLUDES = -IE:/note/GameEngine/SparrowEngine/Platform/Public -IE:/note/GameEngine/SparrowEngine/Core/Public -IE:/note/GameEngine/SparrowEngine/Platform/External/glfw/deps -IE:/note/GameEngine/SparrowEngine/Platform/External/glfw/include
@@ -2003,7 +2019,7 @@ build bin/triangle-vulkan.exe: C_EXECUTABLE_LINKER__triangle-vulkan_Debug Platfo
 build cmake_object_order_depends_target_windows: phony || cmake_object_order_depends_target_glfw
 
 build Platform/External/glfw/tests/CMakeFiles/windows.dir/windows.c.obj: C_COMPILER__windows_unscanned_Debug E$:/note/GameEngine/SparrowEngine/Platform/External/glfw/tests/windows.c || cmake_object_order_depends_target_windows
-  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSE_ENGINE_PLATFORM_WIN32
+  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSP_ENGINE_PLATFORM_WIN32
   DEP_FILE = Platform\External\glfw\tests\CMakeFiles\windows.dir\windows.c.obj.d
   FLAGS = -g -std=gnu99 -fdiagnostics-color=always
   INCLUDES = -IE:/note/GameEngine/SparrowEngine/Platform/Public -IE:/note/GameEngine/SparrowEngine/Core/Public -IE:/note/GameEngine/SparrowEngine/Platform/External/glfw/deps -IE:/note/GameEngine/SparrowEngine/Platform/External/glfw/include
@@ -2011,7 +2027,7 @@ build Platform/External/glfw/tests/CMakeFiles/windows.dir/windows.c.obj: C_COMPI
   OBJECT_FILE_DIR = Platform\External\glfw\tests\CMakeFiles\windows.dir
 
 build Platform/External/glfw/tests/CMakeFiles/windows.dir/__/deps/getopt.c.obj: C_COMPILER__windows_unscanned_Debug E$:/note/GameEngine/SparrowEngine/Platform/External/glfw/deps/getopt.c || cmake_object_order_depends_target_windows
-  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSE_ENGINE_PLATFORM_WIN32
+  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSP_ENGINE_PLATFORM_WIN32
   DEP_FILE = Platform\External\glfw\tests\CMakeFiles\windows.dir\__\deps\getopt.c.obj.d
   FLAGS = -g -std=gnu99 -fdiagnostics-color=always
   INCLUDES = -IE:/note/GameEngine/SparrowEngine/Platform/Public -IE:/note/GameEngine/SparrowEngine/Core/Public -IE:/note/GameEngine/SparrowEngine/Platform/External/glfw/deps -IE:/note/GameEngine/SparrowEngine/Platform/External/glfw/include
@@ -2019,7 +2035,7 @@ build Platform/External/glfw/tests/CMakeFiles/windows.dir/__/deps/getopt.c.obj: 
   OBJECT_FILE_DIR = Platform\External\glfw\tests\CMakeFiles\windows.dir\__\deps
 
 build Platform/External/glfw/tests/CMakeFiles/windows.dir/__/deps/glad_gl.c.obj: C_COMPILER__windows_unscanned_Debug E$:/note/GameEngine/SparrowEngine/Platform/External/glfw/deps/glad_gl.c || cmake_object_order_depends_target_windows
-  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSE_ENGINE_PLATFORM_WIN32
+  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSP_ENGINE_PLATFORM_WIN32
   DEP_FILE = Platform\External\glfw\tests\CMakeFiles\windows.dir\__\deps\glad_gl.c.obj.d
   FLAGS = -g -std=gnu99 -fdiagnostics-color=always
   INCLUDES = -IE:/note/GameEngine/SparrowEngine/Platform/Public -IE:/note/GameEngine/SparrowEngine/Core/Public -IE:/note/GameEngine/SparrowEngine/Platform/External/glfw/deps -IE:/note/GameEngine/SparrowEngine/Platform/External/glfw/include
@@ -2125,10 +2141,10 @@ build Platform/External/glfw/tests/install/strip: phony Platform/External/glfw/t
 build cmake_object_order_depends_target_sparrow_core: phony || cmake_object_order_depends_target_glfw cmake_object_order_depends_target_sparrow_platform
 
 build Core/CMakeFiles/sparrow_core.dir/Private/SpApplication.cpp.obj: CXX_COMPILER__sparrow_core_unscanned_Debug E$:/note/GameEngine/SparrowEngine/Core/Private/SpApplication.cpp || cmake_object_order_depends_target_sparrow_core
-  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSE_ENGINE_PLATFORM_WIN32
+  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSP_ENGINE_PLATFORM_WIN32
   DEP_FILE = Core\CMakeFiles\sparrow_core.dir\Private\SpApplication.cpp.obj.d
   FLAGS = -g -std=gnu++17 -fdiagnostics-color=always
-  INCLUDES = -IE:/note/GameEngine/SparrowEngine/Platform/Public -IE:/note/GameEngine/SparrowEngine/Core/Public -IE:/note/GameEngine/SparrowEngine/Platform/External
+  INCLUDES = -IE:/note/GameEngine/SparrowEngine/Platform/Public -IE:/note/GameEngine/SparrowEngine/Core/Public -IE:/note/GameEngine/SparrowEngine/Platform/External -IC:/VulkanSDK/1.3.283.0/Include
   OBJECT_DIR = Core\CMakeFiles\sparrow_core.dir
   OBJECT_FILE_DIR = Core\CMakeFiles\sparrow_core.dir\Private
 
@@ -2368,10 +2384,10 @@ build Sample/install/strip: phony Sample/CMakeFiles/install/strip.util
 build cmake_object_order_depends_target_SandBox: phony || cmake_object_order_depends_target_glfw cmake_object_order_depends_target_sparrow_core cmake_object_order_depends_target_sparrow_platform
 
 build Sample/SandBox/CMakeFiles/SandBox.dir/Main.cpp.obj: CXX_COMPILER__SandBox_unscanned_Debug E$:/note/GameEngine/SparrowEngine/Sample/SandBox/Main.cpp || cmake_object_order_depends_target_SandBox
-  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSE_ENGINE_PLATFORM_WIN32
+  DEFINES = -DSE_DEFINE_RES_ROOT_DIR=\"E:/note/GameEngine/SparrowEngine/Resource/\" -DSP_ENGINE_PLATFORM_WIN32
   DEP_FILE = Sample\SandBox\CMakeFiles\SandBox.dir\Main.cpp.obj.d
   FLAGS = -g -std=gnu++17 -fdiagnostics-color=always
-  INCLUDES = -IE:/note/GameEngine/SparrowEngine/Platform/Public -IE:/note/GameEngine/SparrowEngine/Core/Public -IE:/note/GameEngine/SparrowEngine/Platform/External
+  INCLUDES = -IE:/note/GameEngine/SparrowEngine/Platform/Public -IE:/note/GameEngine/SparrowEngine/Core/Public -IE:/note/GameEngine/SparrowEngine/Platform/External -IC:/VulkanSDK/1.3.283.0/Include
   OBJECT_DIR = Sample\SandBox\CMakeFiles\SandBox.dir
   OBJECT_FILE_DIR = Sample\SandBox\CMakeFiles\SandBox.dir
 
@@ -2383,9 +2399,9 @@ build Sample/SandBox/CMakeFiles/SandBox.dir/Main.cpp.obj: CXX_COMPILER__SandBox_
 #############################################
 # Link the executable bin\SandBox.exe
 
-build bin/SandBox.exe: CXX_EXECUTABLE_LINKER__SandBox_Debug Sample/SandBox/CMakeFiles/SandBox.dir/Main.cpp.obj | lib/libsparrow_core.a lib/libsparrow_platform.a lib/libglfw3.a || lib/libglfw3.a lib/libsparrow_core.a lib/libsparrow_platform.a
+build bin/SandBox.exe: CXX_EXECUTABLE_LINKER__SandBox_Debug Sample/SandBox/CMakeFiles/SandBox.dir/Main.cpp.obj | lib/libsparrow_core.a lib/libsparrow_platform.a lib/libglfw3.a C$:/VulkanSDK/1.3.283.0/Lib/vulkan-1.lib || lib/libglfw3.a lib/libsparrow_core.a lib/libsparrow_platform.a
   FLAGS = -g
-  LINK_LIBRARIES = lib/libsparrow_core.a  lib/libsparrow_platform.a  lib/libglfw3.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  LINK_LIBRARIES = lib/libsparrow_core.a  lib/libsparrow_platform.a  lib/libglfw3.a  C:/VulkanSDK/1.3.283.0/Lib/vulkan-1.lib  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = Sample\SandBox\CMakeFiles\SandBox.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
@@ -2677,14 +2693,14 @@ build Sample/SandBox/all: phony bin/SandBox.exe
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | CMakeCache.txt CMakeFiles/3.28.1/CMakeCCompiler.cmake CMakeFiles/3.28.1/CMakeCXXCompiler.cmake CMakeFiles/3.28.1/CMakeRCCompiler.cmake CMakeFiles/3.28.1/CMakeSystem.cmake D$:/Clion/CLion$ 2024.1.2/bin/cmake/win/x64/share/cmake-3.28/Modules/BasicConfigVersion-SameMajorVersion.cmake.in D$:/Clion/CLion$ 2024.1.2/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCInformation.cmake D$:/Clion/CLion$ 2024.1.2/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCXXInformation.cmake D$:/Clion/CLion$ 2024.1.2/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake D$:/Clion/CLion$ 2024.1.2/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake D$:/Clion/CLion$ 2024.1.2/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDependentOption.cmake D$:/Clion/CLion$ 2024.1.2/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeGenericSystem.cmake D$:/Clion/CLion$ 2024.1.2/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake D$:/Clion/CLion$ 2024.1.2/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake D$:/Clion/CLion$ 2024.1.2/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakePackageConfigHelpers.cmake D$:/Clion/CLion$ 2024.1.2/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeRCInformation.cmake D$:/Clion/CLion$ 2024.1.2/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake D$:/Clion/CLion$ 2024.1.2/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake D$:/Clion/CLion$ 2024.1.2/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckCCompilerFlag.cmake D$:/Clion/CLion$ 2024.1.2/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake D$:/Clion/CLion$ 2024.1.2/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckIncludeFile.cmake D$:/Clion/CLion$ 2024.1.2/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckLibraryExists.cmake D$:/Clion/CLion$ 2024.1.2/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/Clion/CLion$ 2024.1.2/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-C.cmake D$:/Clion/CLion$ 2024.1.2/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-CXX.cmake D$:/Clion/CLion$ 2024.1.2/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU.cmake D$:/Clion/CLion$ 2024.1.2/bin/cmake/win/x64/share/cmake-3.28/Modules/FindDoxygen.cmake D$:/Clion/CLion$ 2024.1.2/bin/cmake/win/x64/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake D$:/Clion/CLion$ 2024.1.2/bin/cmake/win/x64/share/cmake-3.28/Modules/FindPackageMessage.cmake D$:/Clion/CLion$ 2024.1.2/bin/cmake/win/x64/share/cmake-3.28/Modules/FindThreads.cmake D$:/Clion/CLion$ 2024.1.2/bin/cmake/win/x64/share/cmake-3.28/Modules/GNUInstallDirs.cmake D$:/Clion/CLion$ 2024.1.2/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake D$:/Clion/CLion$ 2024.1.2/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CheckFlagCommonConfig.cmake D$:/Clion/CLion$ 2024.1.2/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake D$:/Clion/CLion$ 2024.1.2/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/Clion/CLion$ 2024.1.2/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C.cmake D$:/Clion/CLion$ 2024.1.2/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-CXX-ABI.cmake D$:/Clion/CLion$ 2024.1.2/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-CXX.cmake D$:/Clion/CLion$ 2024.1.2/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU.cmake D$:/Clion/CLion$ 2024.1.2/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-Initialize.cmake D$:/Clion/CLion$ 2024.1.2/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-windres.cmake D$:/Clion/CLion$ 2024.1.2/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows.cmake D$:/Clion/CLion$ 2024.1.2/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/WindowsPaths.cmake D$:/Clion/CLion$ 2024.1.2/bin/cmake/win/x64/share/cmake-3.28/Modules/WriteBasicConfigVersionFile.cmake E$:/note/GameEngine/SparrowEngine/CMakeLists.txt E$:/note/GameEngine/SparrowEngine/Core/CMakeLists.txt E$:/note/GameEngine/SparrowEngine/Editor/CMakeLists.txt E$:/note/GameEngine/SparrowEngine/Platform/CMakeLists.txt E$:/note/GameEngine/SparrowEngine/Platform/External/glfw/CMakeLists.txt E$:/note/GameEngine/SparrowEngine/Platform/External/glfw/cmake_uninstall.cmake.in E$:/note/GameEngine/SparrowEngine/Platform/External/glfw/examples/CMakeLists.txt E$:/note/GameEngine/SparrowEngine/Platform/External/glfw/src/CMakeLists.txt E$:/note/GameEngine/SparrowEngine/Platform/External/glfw/src/glfw3.pc.in E$:/note/GameEngine/SparrowEngine/Platform/External/glfw/src/glfw3Config.cmake.in E$:/note/GameEngine/SparrowEngine/Platform/External/glfw/src/glfw_config.h.in E$:/note/GameEngine/SparrowEngine/Platform/External/glfw/tests/CMakeLists.txt E$:/note/GameEngine/SparrowEngine/Sample/CMakeLists.txt E$:/note/GameEngine/SparrowEngine/Sample/SandBox/CMakeLists.txt
+build build.ninja: RERUN_CMAKE | CMakeCache.txt CMakeFiles/3.28.1/CMakeCCompiler.cmake CMakeFiles/3.28.1/CMakeCXXCompiler.cmake CMakeFiles/3.28.1/CMakeRCCompiler.cmake CMakeFiles/3.28.1/CMakeSystem.cmake D$:/Clion/CLion$ 2024.1.2/bin/cmake/win/x64/share/cmake-3.28/Modules/BasicConfigVersion-SameMajorVersion.cmake.in D$:/Clion/CLion$ 2024.1.2/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCInformation.cmake D$:/Clion/CLion$ 2024.1.2/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCXXInformation.cmake D$:/Clion/CLion$ 2024.1.2/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake D$:/Clion/CLion$ 2024.1.2/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake D$:/Clion/CLion$ 2024.1.2/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDependentOption.cmake D$:/Clion/CLion$ 2024.1.2/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeGenericSystem.cmake D$:/Clion/CLion$ 2024.1.2/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake D$:/Clion/CLion$ 2024.1.2/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake D$:/Clion/CLion$ 2024.1.2/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakePackageConfigHelpers.cmake D$:/Clion/CLion$ 2024.1.2/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeRCInformation.cmake D$:/Clion/CLion$ 2024.1.2/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake D$:/Clion/CLion$ 2024.1.2/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake D$:/Clion/CLion$ 2024.1.2/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckCCompilerFlag.cmake D$:/Clion/CLion$ 2024.1.2/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake D$:/Clion/CLion$ 2024.1.2/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckIncludeFile.cmake D$:/Clion/CLion$ 2024.1.2/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckLibraryExists.cmake D$:/Clion/CLion$ 2024.1.2/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/Clion/CLion$ 2024.1.2/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-C.cmake D$:/Clion/CLion$ 2024.1.2/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-CXX.cmake D$:/Clion/CLion$ 2024.1.2/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU.cmake D$:/Clion/CLion$ 2024.1.2/bin/cmake/win/x64/share/cmake-3.28/Modules/FindDoxygen.cmake D$:/Clion/CLion$ 2024.1.2/bin/cmake/win/x64/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake D$:/Clion/CLion$ 2024.1.2/bin/cmake/win/x64/share/cmake-3.28/Modules/FindPackageMessage.cmake D$:/Clion/CLion$ 2024.1.2/bin/cmake/win/x64/share/cmake-3.28/Modules/FindThreads.cmake D$:/Clion/CLion$ 2024.1.2/bin/cmake/win/x64/share/cmake-3.28/Modules/FindVulkan.cmake D$:/Clion/CLion$ 2024.1.2/bin/cmake/win/x64/share/cmake-3.28/Modules/GNUInstallDirs.cmake D$:/Clion/CLion$ 2024.1.2/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake D$:/Clion/CLion$ 2024.1.2/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CheckFlagCommonConfig.cmake D$:/Clion/CLion$ 2024.1.2/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake D$:/Clion/CLion$ 2024.1.2/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/Clion/CLion$ 2024.1.2/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C.cmake D$:/Clion/CLion$ 2024.1.2/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-CXX-ABI.cmake D$:/Clion/CLion$ 2024.1.2/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-CXX.cmake D$:/Clion/CLion$ 2024.1.2/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU.cmake D$:/Clion/CLion$ 2024.1.2/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-Initialize.cmake D$:/Clion/CLion$ 2024.1.2/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-windres.cmake D$:/Clion/CLion$ 2024.1.2/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows.cmake D$:/Clion/CLion$ 2024.1.2/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/WindowsPaths.cmake D$:/Clion/CLion$ 2024.1.2/bin/cmake/win/x64/share/cmake-3.28/Modules/WriteBasicConfigVersionFile.cmake E$:/note/GameEngine/SparrowEngine/CMakeLists.txt E$:/note/GameEngine/SparrowEngine/Core/CMakeLists.txt E$:/note/GameEngine/SparrowEngine/Editor/CMakeLists.txt E$:/note/GameEngine/SparrowEngine/Platform/CMakeLists.txt E$:/note/GameEngine/SparrowEngine/Platform/External/glfw/CMakeLists.txt E$:/note/GameEngine/SparrowEngine/Platform/External/glfw/cmake_uninstall.cmake.in E$:/note/GameEngine/SparrowEngine/Platform/External/glfw/examples/CMakeLists.txt E$:/note/GameEngine/SparrowEngine/Platform/External/glfw/src/CMakeLists.txt E$:/note/GameEngine/SparrowEngine/Platform/External/glfw/src/glfw3.pc.in E$:/note/GameEngine/SparrowEngine/Platform/External/glfw/src/glfw3Config.cmake.in E$:/note/GameEngine/SparrowEngine/Platform/External/glfw/src/glfw_config.h.in E$:/note/GameEngine/SparrowEngine/Platform/External/glfw/tests/CMakeLists.txt E$:/note/GameEngine/SparrowEngine/Sample/CMakeLists.txt E$:/note/GameEngine/SparrowEngine/Sample/SandBox/CMakeLists.txt
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build CMakeCache.txt CMakeFiles/3.28.1/CMakeCCompiler.cmake CMakeFiles/3.28.1/CMakeCXXCompiler.cmake CMakeFiles/3.28.1/CMakeRCCompiler.cmake CMakeFiles/3.28.1/CMakeSystem.cmake D$:/Clion/CLion$ 2024.1.2/bin/cmake/win/x64/share/cmake-3.28/Modules/BasicConfigVersion-SameMajorVersion.cmake.in D$:/Clion/CLion$ 2024.1.2/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCInformation.cmake D$:/Clion/CLion$ 2024.1.2/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCXXInformation.cmake D$:/Clion/CLion$ 2024.1.2/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake D$:/Clion/CLion$ 2024.1.2/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake D$:/Clion/CLion$ 2024.1.2/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDependentOption.cmake D$:/Clion/CLion$ 2024.1.2/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeGenericSystem.cmake D$:/Clion/CLion$ 2024.1.2/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake D$:/Clion/CLion$ 2024.1.2/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake D$:/Clion/CLion$ 2024.1.2/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakePackageConfigHelpers.cmake D$:/Clion/CLion$ 2024.1.2/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeRCInformation.cmake D$:/Clion/CLion$ 2024.1.2/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake D$:/Clion/CLion$ 2024.1.2/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake D$:/Clion/CLion$ 2024.1.2/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckCCompilerFlag.cmake D$:/Clion/CLion$ 2024.1.2/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake D$:/Clion/CLion$ 2024.1.2/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckIncludeFile.cmake D$:/Clion/CLion$ 2024.1.2/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckLibraryExists.cmake D$:/Clion/CLion$ 2024.1.2/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/Clion/CLion$ 2024.1.2/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-C.cmake D$:/Clion/CLion$ 2024.1.2/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-CXX.cmake D$:/Clion/CLion$ 2024.1.2/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU.cmake D$:/Clion/CLion$ 2024.1.2/bin/cmake/win/x64/share/cmake-3.28/Modules/FindDoxygen.cmake D$:/Clion/CLion$ 2024.1.2/bin/cmake/win/x64/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake D$:/Clion/CLion$ 2024.1.2/bin/cmake/win/x64/share/cmake-3.28/Modules/FindPackageMessage.cmake D$:/Clion/CLion$ 2024.1.2/bin/cmake/win/x64/share/cmake-3.28/Modules/FindThreads.cmake D$:/Clion/CLion$ 2024.1.2/bin/cmake/win/x64/share/cmake-3.28/Modules/GNUInstallDirs.cmake D$:/Clion/CLion$ 2024.1.2/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake D$:/Clion/CLion$ 2024.1.2/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CheckFlagCommonConfig.cmake D$:/Clion/CLion$ 2024.1.2/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake D$:/Clion/CLion$ 2024.1.2/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/Clion/CLion$ 2024.1.2/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C.cmake D$:/Clion/CLion$ 2024.1.2/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-CXX-ABI.cmake D$:/Clion/CLion$ 2024.1.2/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-CXX.cmake D$:/Clion/CLion$ 2024.1.2/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU.cmake D$:/Clion/CLion$ 2024.1.2/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-Initialize.cmake D$:/Clion/CLion$ 2024.1.2/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-windres.cmake D$:/Clion/CLion$ 2024.1.2/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows.cmake D$:/Clion/CLion$ 2024.1.2/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/WindowsPaths.cmake D$:/Clion/CLion$ 2024.1.2/bin/cmake/win/x64/share/cmake-3.28/Modules/WriteBasicConfigVersionFile.cmake E$:/note/GameEngine/SparrowEngine/CMakeLists.txt E$:/note/GameEngine/SparrowEngine/Core/CMakeLists.txt E$:/note/GameEngine/SparrowEngine/Editor/CMakeLists.txt E$:/note/GameEngine/SparrowEngine/Platform/CMakeLists.txt E$:/note/GameEngine/SparrowEngine/Platform/External/glfw/CMakeLists.txt E$:/note/GameEngine/SparrowEngine/Platform/External/glfw/cmake_uninstall.cmake.in E$:/note/GameEngine/SparrowEngine/Platform/External/glfw/examples/CMakeLists.txt E$:/note/GameEngine/SparrowEngine/Platform/External/glfw/src/CMakeLists.txt E$:/note/GameEngine/SparrowEngine/Platform/External/glfw/src/glfw3.pc.in E$:/note/GameEngine/SparrowEngine/Platform/External/glfw/src/glfw3Config.cmake.in E$:/note/GameEngine/SparrowEngine/Platform/External/glfw/src/glfw_config.h.in E$:/note/GameEngine/SparrowEngine/Platform/External/glfw/tests/CMakeLists.txt E$:/note/GameEngine/SparrowEngine/Sample/CMakeLists.txt E$:/note/GameEngine/SparrowEngine/Sample/SandBox/CMakeLists.txt: phony
+build CMakeCache.txt CMakeFiles/3.28.1/CMakeCCompiler.cmake CMakeFiles/3.28.1/CMakeCXXCompiler.cmake CMakeFiles/3.28.1/CMakeRCCompiler.cmake CMakeFiles/3.28.1/CMakeSystem.cmake D$:/Clion/CLion$ 2024.1.2/bin/cmake/win/x64/share/cmake-3.28/Modules/BasicConfigVersion-SameMajorVersion.cmake.in D$:/Clion/CLion$ 2024.1.2/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCInformation.cmake D$:/Clion/CLion$ 2024.1.2/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCXXInformation.cmake D$:/Clion/CLion$ 2024.1.2/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake D$:/Clion/CLion$ 2024.1.2/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake D$:/Clion/CLion$ 2024.1.2/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDependentOption.cmake D$:/Clion/CLion$ 2024.1.2/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeGenericSystem.cmake D$:/Clion/CLion$ 2024.1.2/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake D$:/Clion/CLion$ 2024.1.2/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake D$:/Clion/CLion$ 2024.1.2/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakePackageConfigHelpers.cmake D$:/Clion/CLion$ 2024.1.2/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeRCInformation.cmake D$:/Clion/CLion$ 2024.1.2/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake D$:/Clion/CLion$ 2024.1.2/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake D$:/Clion/CLion$ 2024.1.2/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckCCompilerFlag.cmake D$:/Clion/CLion$ 2024.1.2/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake D$:/Clion/CLion$ 2024.1.2/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckIncludeFile.cmake D$:/Clion/CLion$ 2024.1.2/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckLibraryExists.cmake D$:/Clion/CLion$ 2024.1.2/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/Clion/CLion$ 2024.1.2/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-C.cmake D$:/Clion/CLion$ 2024.1.2/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU-CXX.cmake D$:/Clion/CLion$ 2024.1.2/bin/cmake/win/x64/share/cmake-3.28/Modules/Compiler/GNU.cmake D$:/Clion/CLion$ 2024.1.2/bin/cmake/win/x64/share/cmake-3.28/Modules/FindDoxygen.cmake D$:/Clion/CLion$ 2024.1.2/bin/cmake/win/x64/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake D$:/Clion/CLion$ 2024.1.2/bin/cmake/win/x64/share/cmake-3.28/Modules/FindPackageMessage.cmake D$:/Clion/CLion$ 2024.1.2/bin/cmake/win/x64/share/cmake-3.28/Modules/FindThreads.cmake D$:/Clion/CLion$ 2024.1.2/bin/cmake/win/x64/share/cmake-3.28/Modules/FindVulkan.cmake D$:/Clion/CLion$ 2024.1.2/bin/cmake/win/x64/share/cmake-3.28/Modules/GNUInstallDirs.cmake D$:/Clion/CLion$ 2024.1.2/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake D$:/Clion/CLion$ 2024.1.2/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CheckFlagCommonConfig.cmake D$:/Clion/CLion$ 2024.1.2/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake D$:/Clion/CLion$ 2024.1.2/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/Clion/CLion$ 2024.1.2/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-C.cmake D$:/Clion/CLion$ 2024.1.2/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-CXX-ABI.cmake D$:/Clion/CLion$ 2024.1.2/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU-CXX.cmake D$:/Clion/CLion$ 2024.1.2/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-GNU.cmake D$:/Clion/CLion$ 2024.1.2/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-Initialize.cmake D$:/Clion/CLion$ 2024.1.2/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows-windres.cmake D$:/Clion/CLion$ 2024.1.2/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/Windows.cmake D$:/Clion/CLion$ 2024.1.2/bin/cmake/win/x64/share/cmake-3.28/Modules/Platform/WindowsPaths.cmake D$:/Clion/CLion$ 2024.1.2/bin/cmake/win/x64/share/cmake-3.28/Modules/WriteBasicConfigVersionFile.cmake E$:/note/GameEngine/SparrowEngine/CMakeLists.txt E$:/note/GameEngine/SparrowEngine/Core/CMakeLists.txt E$:/note/GameEngine/SparrowEngine/Editor/CMakeLists.txt E$:/note/GameEngine/SparrowEngine/Platform/CMakeLists.txt E$:/note/GameEngine/SparrowEngine/Platform/External/glfw/CMakeLists.txt E$:/note/GameEngine/SparrowEngine/Platform/External/glfw/cmake_uninstall.cmake.in E$:/note/GameEngine/SparrowEngine/Platform/External/glfw/examples/CMakeLists.txt E$:/note/GameEngine/SparrowEngine/Platform/External/glfw/src/CMakeLists.txt E$:/note/GameEngine/SparrowEngine/Platform/External/glfw/src/glfw3.pc.in E$:/note/GameEngine/SparrowEngine/Platform/External/glfw/src/glfw3Config.cmake.in E$:/note/GameEngine/SparrowEngine/Platform/External/glfw/src/glfw_config.h.in E$:/note/GameEngine/SparrowEngine/Platform/External/glfw/tests/CMakeLists.txt E$:/note/GameEngine/SparrowEngine/Sample/CMakeLists.txt E$:/note/GameEngine/SparrowEngine/Sample/SandBox/CMakeLists.txt: phony
 
 
 #############################################

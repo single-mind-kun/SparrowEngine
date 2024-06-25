@@ -168,10 +168,12 @@ namespace spe{
             PrintPhyDeviceInfo(props);
 
             uint32_t score = GetPhyDeviceScore(props);
+
             uint32_t formatCount;
             CALL_VK(vkGetPhysicalDeviceSurfaceFormatsKHR(phyDevices[i], mSurface, &formatCount,nullptr));
             VkSurfaceFormatKHR formats[formatCount];
             CALL_VK(vkGetPhysicalDeviceSurfaceFormatsKHR(phyDevices[i], mSurface, &formatCount,formats));
+
             for(int j = 0; j < formatCount; j++){
                 if(formats[j].format == VK_FORMAT_B8G8R8A8_UNORM && formats[j].colorSpace == VK_COLORSPACE_SRGB_NONLINEAR_KHR){
                     score += 10;
@@ -236,15 +238,6 @@ namespace spe{
     }
 
     void SpVKGraphicContext::PrintPhyDeviceInfo(VkPhysicalDeviceProperties &props) {
-        //    uint32_t                            apiVersion;
-        //    uint32_t                            driverVersion;
-        //    uint32_t                            vendorID;
-        //    uint32_t                            deviceID;
-        //    VkPhysicalDeviceType                deviceType;
-        //    char                                deviceName[VK_MAX_PHYSICAL_DEVICE_NAME_SIZE];
-        //    uint8_t                             pipelineCacheUUID[VK_UUID_SIZE];
-        //    VkPhysicalDeviceLimits              limits;
-        //    VkPhysicalDeviceSparseProperties    sparseProperties;
         const char *deviceType = props.deviceType == VK_PHYSICAL_DEVICE_TYPE_INTEGRATED_GPU ? "integrated gpu" :
                                  props.deviceType == VK_PHYSICAL_DEVICE_TYPE_DISCRETE_GPU ? "discrete gpu" :
                                  props.deviceType == VK_PHYSICAL_DEVICE_TYPE_VIRTUAL_GPU ? "virtual gpu" :
@@ -273,10 +266,10 @@ namespace spe{
         switch(deviceType){
             case VK_PHYSICAL_DEVICE_TYPE_OTHER:
                 break;
-            case VK_PHYSICAL_DEVICE_TYPE_INTEGRATED_GPU:
+            case VK_PHYSICAL_DEVICE_TYPE_DISCRETE_GPU:
                 score += 40;
                 break;
-            case VK_PHYSICAL_DEVICE_TYPE_DISCRETE_GPU:
+            case VK_PHYSICAL_DEVICE_TYPE_INTEGRATED_GPU:
                 score +=30;
                 break;
             case VK_PHYSICAL_DEVICE_TYPE_VIRTUAL_GPU:

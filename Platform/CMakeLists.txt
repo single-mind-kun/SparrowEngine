@@ -7,6 +7,9 @@ add_library(sparrow_platform
 
         Private/SpGraphicContext.cpp
         Private/Graphic/SpVKGraphicContext.cpp
+        Private/Graphic/SpVKDevice.cpp
+        Private/Graphic/SpVKQueue.cpp
+        Private/Graphic/SpVKSwapchain.cpp
 )
 
 target_include_directories(sparrow_platform PUBLIC External)

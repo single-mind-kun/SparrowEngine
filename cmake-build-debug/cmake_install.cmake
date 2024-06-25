@@ -1,4 +1,4 @@
-# Install script for directory: E:/note/GameEngine/SparrowEngine
+# Install script for directory: D:/luwenkun/SparrowEngine
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,27 +34,27 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "D:/Clion/CLion 2024.1.2/bin/mingw/bin/objdump.exe")
+  set(CMAKE_OBJDUMP "D:/Clion/CLion 2024.1.4/bin/mingw/bin/objdump.exe")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("E:/note/GameEngine/SparrowEngine/cmake-build-debug/Platform/cmake_install.cmake")
+  include("D:/luwenkun/SparrowEngine/cmake-build-debug/Platform/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("E:/note/GameEngine/SparrowEngine/cmake-build-debug/Core/cmake_install.cmake")
+  include("D:/luwenkun/SparrowEngine/cmake-build-debug/Core/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("E:/note/GameEngine/SparrowEngine/cmake-build-debug/Editor/cmake_install.cmake")
+  include("D:/luwenkun/SparrowEngine/cmake-build-debug/Editor/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("E:/note/GameEngine/SparrowEngine/cmake-build-debug/Sample/cmake_install.cmake")
+  include("D:/luwenkun/SparrowEngine/cmake-build-debug/Sample/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -65,5 +65,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "E:/note/GameEngine/SparrowEngine/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "D:/luwenkun/SparrowEngine/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

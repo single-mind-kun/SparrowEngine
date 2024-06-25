@@ -2,8 +2,10 @@
 #define SPLOG_H
 
 #include "SpEngine.h"
-#define SPDLOG_ACTIVE_LEVEL SPDLOG_LEVEL_TRACE
-#include "spdlog/spdlog.h"
+
+//#define SPDLOG_ACTIVE_LEVEL SPDLOG_LEVEL_TRACE
+//#include "spdlog/spdlog.h"
+#include "spdlog/common.h"
 
 namespace spe{
     //日志管理类
@@ -13,20 +15,33 @@ namespace spe{
         SpLog(const SpLog&) = delete;
         SpLog& operator=(const SpLog&) = delete;
         static void Init();
-        static spdlog::logger* GetLoggerInstance(){
-            assert(sLoggerInstance && "Logger instance is null, maybe you have not execute SpLog::Init()");
-            return sLoggerInstance.get();
+        static SpLog* GetLoggerInstance(){
+            return &sLoggerInstance;
         }
+
+        template<typename... Args>
+        void Log(spdlog::source_loc loc, spdlog::level::level_enum lvl, spdlog::format_string_t<Args...> fmt, Args&& ...args){
+            spdlog::memory_buf_t buf;
+            fmt::vformat_to(fmt::appender(buf), fmt, fmt::make_format_args(args...));
+            Log(loc, lvl, buf);
+        }
+
+
     private:
-        static std::shared_ptr<spdlog::logger> sLoggerInstance;
+
+        void Log(spdlog::source_loc loc, spdlog::level::level_enum lvl, const spdlog::memory_buf_t& buffer);
+
+        static SpLog sLoggerInstance;
     };
 
+#define SP_LOG_LOGGER_CALL(spLog, level, ...) \
+        (spLog)->Log(spdlog::source_loc{__FILE__, __LINE__, SPDLOG_FUNCTION}, level, __VA_ARGS__)
 //日志调用的宏定义封装
-#define SpLogTrace(...) SPDLOG_LOGGER_TRACE(spe::SpLog::GetLoggerInstance(), __VA_ARGS__)
-#define SpLogDebug(...) SPDLOG_LOGGER_DEBUG(spe::SpLog::GetLoggerInstance(), __VA_ARGS__)
-#define SpLogInfo(...) SPDLOG_LOGGER_INFO(spe::SpLog::GetLoggerInstance(), __VA_ARGS__)
-#define SpLogWarning(...) SPDLOG_LOGGER_WARN(spe::SpLog::GetLoggerInstance(), __VA_ARGS__)
-#define SpLogError(...) SPDLOG_LOGGER_ERROR(spe::SpLog::GetLoggerInstance(), __VA_ARGS__)
+#define SpLogTrace(...) SP_LOG_LOGGER_CALL(spe::SpLog::GetLoggerInstance(), spdlog::level::trace, __VA_ARGS__)
+#define SpLogDebug(...) SP_LOG_LOGGER_CALL(spe::SpLog::GetLoggerInstance(), spdlog::level::debug, __VA_ARGS__)
+#define SpLogInfo(...) SP_LOG_LOGGER_CALL(spe::SpLog::GetLoggerInstance(), spdlog::level::info, __VA_ARGS__)
+#define SpLogWarning(...) SP_LOG_LOGGER_CALL(spe::SpLog::GetLoggerInstance(), spdlog::level::warn, __VA_ARGS__)
+#define SpLogError(...) SP_LOG_LOGGER_CALL(spe::SpLog::GetLoggerInstance(), spdlog::level::err, __VA_ARGS__)
 }
 
 #endif

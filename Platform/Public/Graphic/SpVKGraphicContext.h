@@ -14,6 +14,16 @@ namespace spe{
     public:
         SpVKGraphicContext(SpWindow* window);
         ~SpVKGraphicContext() override;
+
+        VkInstance GetInstance() const {return mInstance;}
+        VkSurfaceKHR GetSurface() const {return mSurface;}
+        VkPhysicalDevice GetPhysicalDevice() const {return mPhysicalDevice;}
+        const QueueFamilyInfo GetGraphicQueueFamilyInfo() const {return mGraphicQueueFamily;}
+        const QueueFamilyInfo GetPresentQueueFamilyInfo() const {return mPresentQueueFamily;}
+        VkPhysicalDeviceMemoryProperties GetPhysicalDeviceMemoryProperties () const {return mPhysicalDeviceMemoryProperties;}
+        bool IsSameGraphicPresentQueueFamily() const {return mGraphicQueueFamily.queueFamilyIndex == mPresentQueueFamily.queueFamilyIndex;}
+
+
     private:
         void PrintPhyDeviceInfo(VkPhysicalDeviceProperties& props);
         uint32_t GetPhyDeviceScore(VkPhysicalDeviceProperties &props);
@@ -24,10 +34,10 @@ namespace spe{
         void SelectPhyDevice();
 
         bool bShouldValidate = true;
-        VkInstance mInstance;
-        VkSurfaceKHR mSurface;
+        VkInstance mInstance = VK_NULL_HANDLE;
+        VkSurfaceKHR mSurface = VK_NULL_HANDLE;
 
-        VkPhysicalDevice mPhysicalDevice;
+        VkPhysicalDevice mPhysicalDevice = VK_NULL_HANDLE;
         VkPhysicalDeviceMemoryProperties mPhysicalDeviceMemoryProperties;
         QueueFamilyInfo mGraphicQueueFamily;
         QueueFamilyInfo mPresentQueueFamily;

@@ -9,6 +9,9 @@ namespace spe{
     class SpGLFWwindow : public SpWindow{
     public:
         SpGLFWwindow() = delete;
+        SpGLFWwindow(const SpGLFWwindow&) = delete;
+        SpGLFWwindow& operator=(const SpGLFWwindow&) = delete;
+
         SpGLFWwindow(uint32_t width ,uint32_t height, const char* title);
         ~SpGLFWwindow() override;
         bool ShouldClose() override;
